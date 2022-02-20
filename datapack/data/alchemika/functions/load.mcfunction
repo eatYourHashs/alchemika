@@ -1,4 +1,7 @@
 scoreboard objectives add alch.dummy dummy
+scoreboard objectives add alch.total_mb dummy
+scoreboard objectives add alch.water dummy
+scoreboard objectives add alch.lava dummy
 
 scoreboard players set $cons.-100 alch.dummy -100
 scoreboard players set $cons.-25 alch.dummy -25
@@ -33,6 +36,6 @@ scoreboard players set $cons.100 alch.dummy 100
 scoreboard players set $cons.110 alch.dummy 110
 scoreboard players set $cons.125 alch.dummy 125
 
-schedule function alch:5tick 5t replace
-schedule function alch:20tick 20t replace
-schedule function alch:100tick 100t replace
+schedule function alchemika:5tick 5t replace
+schedule function alchemika:20tick 20t replace
+schedule function alchemika:100tick 100t replace

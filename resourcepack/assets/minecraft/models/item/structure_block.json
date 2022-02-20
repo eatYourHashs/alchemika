@@ -1,0 +1,6 @@
+{
+  "parent": "block/structure_block",
+  "overrides": [
+    {"predicate": {"custom_model_data": 426000}, "model": "alchemika:item/empty"}
+  ]
+}
