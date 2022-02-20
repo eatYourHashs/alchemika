@@ -1,1 +1,1 @@
-execute run summon marker ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.cauldron","alch.ticking","alch.5ticking"]}
+summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoGravity:1b,Invulnerable:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.cauldron","alch.ticking","alch.5ticking"],ArmorItems:[{},{},{},{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:16777215},CustomModelData:426000}}]}
