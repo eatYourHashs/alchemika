@@ -43,7 +43,7 @@ scoreboard players set $cons.200 alch.dummy 200
 scoreboard players set $cons.220 alch.dummy 220
 scoreboard players set $cons.255 alch.dummy 255
 scoreboard players set $cons.256 alch.dummy 256
-scoreboard players set $cons.1000 alch.dummy 1000
+scoreboard players set $cons.999 alch.dummy 999
 scoreboard players set $cons.65536 alch.dummy 65536
 
 schedule function alchemika:5tick 5t replace

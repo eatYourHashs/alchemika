@@ -47,9 +47,9 @@ scoreboard players operation $temp alch.dummy = @s alch.snow
 scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
 scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
 
-scoreboard players operation $temp.red alch.dummy /= $cons.1000 alch.dummy
-scoreboard players operation $temp.blue alch.dummy /= $cons.1000 alch.dummy
-scoreboard players operation $temp.green alch.dummy /= $cons.1000 alch.dummy
+scoreboard players operation $temp.red alch.dummy /= $cons.999 alch.dummy
+scoreboard players operation $temp.blue alch.dummy /= $cons.999 alch.dummy
+scoreboard players operation $temp.green alch.dummy /= $cons.999 alch.dummy
 scoreboard players operation $temp.red alch.dummy *= $cons.65536 alch.dummy
 scoreboard players operation $temp.green alch.dummy *= $cons.256 alch.dummy
 scoreboard players operation $temp alch.dummy = $temp.red alch.dummy
