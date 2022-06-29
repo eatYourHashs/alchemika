@@ -1,0 +1,12 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 425000}, "model": "alchemika:item/wooden_stirring_rod"},
+    {"predicate": {"custom_model_data": 425001}, "model": "alchemika:item/wooden_scoop"},
+    {"predicate": {"custom_model_data": 425002}, "model": "alchemika:item/iron_stirring_rod"},
+    {"predicate": {"custom_model_data": 425003}, "model": "alchemika:item/iron_scoop"}
+  ]
+}
