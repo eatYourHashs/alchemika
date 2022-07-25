@@ -1,6 +1,8 @@
 {
   "parent": "block/structure_block",
   "overrides": [
-    {"predicate": {"custom_model_data": 426000}, "model": "alchemika:item/empty"}
+    {"predicate": {"custom_model_data": 426000}, "model": "alchemika:item/empty"},
+    {"predicate": {"custom_model_data": 426001}, "model": "alchemika:blocks/pure/lava"},
+    {"predicate": {"custom_model_data": 426002}, "model": "alchemika:blocks/pure/powder_snow"}
   ]
 }

@@ -1,3 +1,11 @@
 {
-  "item.minecraft.knowledge_book": "Click to craft"
+  "item.minecraft.knowledge_book": "Click to craft",
+  "item.alch.wooden_stirring_rod": "Wooden Stirring Rod",
+  "item.alch.wooden_stirring_rod.lore.0": "Right click a cauldron to stir.",
+  "item.alch.wooden_stirring_rod.lore.1": "Stir quickly to separate mixtures.",
+  "item.alch.wooden_stirring_rod.lore.2": "Stir slowly to combine substances.",
+  "item.alch.quartz_stirring_rod": "Quartz Stirring Rod",
+  "item.alch.quartz_stirring_rod.lore.0": "Right click a cauldron to stir.",
+  "item.alch.quartz_stirring_rod.lore.1": "Stir quickly to separate mixtures.",
+  "item.alch.quartz_stirring_rod.lore.2": "Stir slowly to combine substances."
 }

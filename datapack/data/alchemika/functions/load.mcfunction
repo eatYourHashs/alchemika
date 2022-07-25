@@ -1,9 +1,14 @@
 scoreboard objectives add alch.dummy dummy
 scoreboard objectives add alch.total dummy
 scoreboard objectives add alch.rm_space dummy
+
 scoreboard objectives add alch.water dummy
 scoreboard objectives add alch.lava dummy
 scoreboard objectives add alch.snow dummy
+scoreboard objectives add alch.gunpowder dummy
+scoreboard objectives add alch.sulfur dummy
+
+scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard players set $cons.-100 alch.dummy -100
 scoreboard players set $cons.-25 alch.dummy -25
@@ -32,6 +37,7 @@ scoreboard players set $cons.30 alch.dummy 30
 scoreboard players set $cons.50 alch.dummy 50
 scoreboard players set $cons.60 alch.dummy 60
 scoreboard players set $cons.65 alch.dummy 65
+scoreboard players set $cons.75 alch.dummy 75
 scoreboard players set $cons.80 alch.dummy 80
 scoreboard players set $cons.95 alch.dummy 95
 scoreboard players set $cons.100 alch.dummy 100

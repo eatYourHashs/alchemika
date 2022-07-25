@@ -1,0 +1,1 @@
+execute if score @s alch.cstick matches 1.. run function alchemika:entity/player/cstick
