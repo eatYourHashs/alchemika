@@ -1,12 +1,15 @@
 scoreboard objectives add alch.dummy dummy
 scoreboard objectives add alch.total dummy
 scoreboard objectives add alch.rm_space dummy
+scoreboard objectives add alch.stir_timer dummy
+scoreboard objectives add alch.stirs dummy
 
 scoreboard objectives add alch.water dummy
 scoreboard objectives add alch.lava dummy
 scoreboard objectives add alch.snow dummy
 scoreboard objectives add alch.gunpowder dummy
 scoreboard objectives add alch.sulfur dummy
+scoreboard objectives add alch.acid dummy
 
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
 
