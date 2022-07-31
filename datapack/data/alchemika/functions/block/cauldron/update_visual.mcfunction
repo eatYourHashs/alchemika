@@ -1,12 +1,12 @@
 item replace entity @s armor.head with minecraft:leather_horse_armor{display:{color:16777215},CustomModelData:426002}
 #add new hot fluids to this line
-execute unless score @s alch.lava matches 1.. run tag @s add alch.not_hot
+execute unless score @s alch.lava matches 1.. unless score @s alch.molten_iron matches 1.. unless score @s alch.molten_gold matches 1.. unless score @s alch.molten_copper matches 1.. run tag @s add alch.not_hot
 #add new powder fluids to this line
-execute unless score @s alch.snow matches 1.. unless score @s alch.gunpowder matches 1.. unless score @s alch.sulfur matches 1.. unless score @s alch.charcoal matches 1.. run tag @s add alch.not_powder
+execute unless score @s alch.raw_iron matches 1.. unless score @s alch.raw_gold matches 1.. unless score @s alch.raw_copper matches 1.. unless score @s alch.snow matches 1.. unless score @s alch.gunpowder matches 1.. unless score @s alch.sulfur matches 1.. unless score @s alch.charcoal matches 1.. run tag @s add alch.not_powder
 execute unless entity @s[tag=alch.not_hot] if entity @s[tag=alch.not_powder] run item replace entity @s armor.head with minecraft:leather_horse_armor{display:{color:16777215},CustomModelData:426001}
 execute if entity @s[tag=alch.not_hot] if entity @s[tag=alch.not_powder] run item replace entity @s armor.head with minecraft:leather_horse_armor{display:{color:16777215},CustomModelData:426000}
 #add new fluids to this line
-execute unless score @s alch.water matches 1.. unless score @s alch.lava matches 1.. unless score @s alch.snow matches 1.. unless score @s alch.gunpowder matches 1.. unless score @s alch.sulfur matches 1.. unless score @s alch.acid matches 1.. unless score @s alch.charcoal matches 1.. run item replace entity @s armor.head with minecraft:air
+execute unless score @s alch.water matches 1.. unless score @s alch.lava matches 1.. unless score @s alch.snow matches 1.. unless score @s alch.gunpowder matches 1.. unless score @s alch.sulfur matches 1.. unless score @s alch.acid matches 1.. unless score @s alch.charcoal matches 1.. unless score @s alch.molten_iron matches 1.. unless score @s alch.molten_gold matches 1.. unless score @s alch.molten_copper matches 1.. unless score @s alch.raw_iron matches 1.. unless score @s alch.raw_gold matches 1.. unless score @s alch.raw_copper matches 1.. run item replace entity @s armor.head with minecraft:air
 
 scoreboard players set $temp.red alch.dummy 0
 scoreboard players set $temp.green alch.dummy 0
@@ -90,6 +90,66 @@ scoreboard players operation $temp alch.dummy *= $cons.25 alch.dummy
 scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
 scoreboard players operation $temp alch.dummy = @s alch.charcoal
 scoreboard players operation $temp alch.dummy *= $cons.25 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.raw_iron
+scoreboard players operation $temp alch.dummy *= $cons.200 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.raw_iron
+scoreboard players operation $temp alch.dummy *= $cons.160 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.raw_iron
+scoreboard players operation $temp alch.dummy *= $cons.100 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.raw_gold
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.raw_gold
+scoreboard players operation $temp alch.dummy *= $cons.220 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.raw_gold
+scoreboard players operation $temp alch.dummy *= $cons.20 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.raw_copper
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.raw_copper
+scoreboard players operation $temp alch.dummy *= $cons.125 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.raw_copper
+scoreboard players operation $temp alch.dummy *= $cons.65 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.molten_iron
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.molten_iron
+scoreboard players operation $temp alch.dummy *= $cons.80 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.molten_iron
+scoreboard players operation $temp alch.dummy *= $cons.65 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.molten_gold
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.molten_gold
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.molten_gold
+scoreboard players operation $temp alch.dummy *= $cons.10 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.molten_copper
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.molten_copper
+scoreboard players operation $temp alch.dummy *= $cons.125 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.molten_copper
+scoreboard players operation $temp alch.dummy *= $cons.65 alch.dummy
 scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
 
 scoreboard players operation $temp.red alch.dummy /= $cons.999 alch.dummy

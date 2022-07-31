@@ -5,3 +5,5 @@ execute if score @s alch.gunpowder matches 1..110 run function alchemika:block/c
 execute if score @s alch.gunpowder matches 111.. run function alchemika:block/cauldron/processes/explode_gunpowder
 execute if score @s alch.charcoal matches 1.. run function alchemika:block/cauldron/processes/burn_charcoal
 execute if score @s alch.raw_iron matches 1.. run function alchemika:block/cauldron/processes/melt_iron
+execute if score @s alch.raw_gold matches 1.. run function alchemika:block/cauldron/processes/melt_gold
+execute if score @s alch.raw_copper matches 1.. run function alchemika:block/cauldron/processes/melt_copper

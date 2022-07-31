@@ -54,6 +54,7 @@ scoreboard players set $cons.100 alch.dummy 100
 scoreboard players set $cons.110 alch.dummy 110
 scoreboard players set $cons.125 alch.dummy 125
 scoreboard players set $cons.150 alch.dummy 150
+scoreboard players set $cons.160 alch.dummy 160
 scoreboard players set $cons.165 alch.dummy 165
 scoreboard players set $cons.200 alch.dummy 200
 scoreboard players set $cons.220 alch.dummy 220

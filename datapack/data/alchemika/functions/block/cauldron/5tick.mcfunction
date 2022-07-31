@@ -3,6 +3,7 @@ execute if block ~ ~-1 ~ #alchemika:heat_source run function alchemika:block/cau
 execute unless block ~ ~-1 ~ #alchemika:cold_source if score @s alch.lava matches 1.. run function alchemika:block/cauldron/processes/heat_processing
 execute unless block ~ ~-1 ~ #alchemika:heat_source if score @s alch.snow matches 1.. run function alchemika:block/cauldron/processes/cold_processing
 execute if block ~ ~-1 ~ #alchemika:cold_source run function alchemika:block/cauldron/processes/cold_processing
+execute if score @s alch.acid matches 1.. run function alchemika:block/cauldron/processes/acid/acid_processing
 execute if block ~ ~1 ~ water unless score @s alch.total matches 999.. run function alchemika:block/cauldron/processes/fill_with_water
 execute if block ~ ~1 ~ lava[level=0] unless score @s alch.total matches 999.. run function alchemika:block/cauldron/processes/fill_with_lava
 execute if block ~ ~1 ~ powder_snow unless score @s alch.total matches 999.. run function alchemika:block/cauldron/processes/fill_with_snow

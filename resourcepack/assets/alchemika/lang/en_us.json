@@ -7,5 +7,8 @@
   "item.alch.quartz_stirring_rod": "Quartz Stirring Rod",
   "item.alch.quartz_stirring_rod.lore.0": "Right click a cauldron to stir.",
   "item.alch.quartz_stirring_rod.lore.1": "Stir quickly to separate mixtures.",
-  "item.alch.quartz_stirring_rod.lore.2": "Stir slowly to combine substances."
+  "item.alch.quartz_stirring_rod.lore.2": "Stir slowly to combine substances.",
+  "item.alch.ingot_cast": "Ingot Cast",
+  "item.alch.ingot_cast.lore.0": "Right click a cauldron with molten metal",
+  "item.alch.ingot_cast.lore.1": "to cast an ingot."
 }
