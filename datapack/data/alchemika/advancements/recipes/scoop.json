@@ -3,14 +3,14 @@
   "rewards": {
     "function": "alchemika:entity/player/nbt_recipe",
     "loot": [
-      "alchemika:items/stirring_rod"
+      "alchemika:items/scoop"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "alchemika:stirring_rod"
+        "recipe": "alchemika:scoop"
       }
     }
   }
