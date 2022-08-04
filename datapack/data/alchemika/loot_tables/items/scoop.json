@@ -19,11 +19,6 @@
                                     "color": "gray",
                                     "italic": false,
                                     "translate": "item.alch.scoop.lore.1"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.alch.scoop.lore.2"
                                 }
                             ]
                         },
