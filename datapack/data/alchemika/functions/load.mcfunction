@@ -11,6 +11,7 @@ scoreboard objectives add alch.gunpowder dummy
 scoreboard objectives add alch.sulfur dummy
 scoreboard objectives add alch.acid dummy
 scoreboard objectives add alch.charcoal dummy
+scoreboard objectives add alch.clay dummy
 scoreboard objectives add alch.raw_iron dummy
 scoreboard objectives add alch.raw_gold dummy
 scoreboard objectives add alch.raw_copper dummy
