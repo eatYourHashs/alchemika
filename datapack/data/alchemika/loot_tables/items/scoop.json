@@ -13,17 +13,17 @@
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.alch.quartz_stirring_rod.lore.0"
+                                    "translate": "item.alch.scoop.lore.0"
                                 },
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.alch.quartz_stirring_rod.lore.1"
+                                    "translate": "item.alch.scoop.lore.1"
                                 },
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.alch.quartz_stirring_rod.lore.2"
+                                    "translate": "item.alch.scoop.lore.2"
                                 }
                             ]
                         },
@@ -32,12 +32,12 @@
                             "name": {
                                 "color": "white",
                                 "italic": false,
-                                "translate": "item.alch.quartz_stirring_rod"
+                                "translate": "item.alch.scoop"
                             }
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:426001,alch_dat:{quartz_stirring_rod:1b}}"
+                            "tag": "{CustomModelData:426003,alch_dat:{scoop:1b}}"
                         }
                     ]
                 }

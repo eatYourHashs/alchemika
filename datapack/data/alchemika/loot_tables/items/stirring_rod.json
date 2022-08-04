@@ -13,17 +13,17 @@
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.alch.wooden_stirring_rod.lore.0"
+                                    "translate": "item.alch.stirring_rod.lore.0"
                                 },
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.alch.wooden_stirring_rod.lore.1"
+                                    "translate": "item.alch.stirring_rod.lore.1"
                                 },
                                 {
                                     "color": "gray",
                                     "italic": false,
-                                    "translate": "item.alch.wooden_stirring_rod.lore.2"
+                                    "translate": "item.alch.stirring_rod.lore.2"
                                 }
                             ]
                         },
@@ -32,12 +32,12 @@
                             "name": {
                                 "color": "white",
                                 "italic": false,
-                                "translate": "item.alch.wooden_stirring_rod"
+                                "translate": "item.alch.stirring_rod"
                             }
                         },
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:426000,alch_dat:{wooden_stirring_rod:1b}}"
+                            "tag": "{CustomModelData:426000,alch_dat:{stirring_rod:1b}}"
                         }
                     ]
                 }
