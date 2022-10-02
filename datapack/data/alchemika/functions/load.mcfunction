@@ -9,9 +9,14 @@ scoreboard objectives add alch.lava dummy
 scoreboard objectives add alch.snow dummy
 scoreboard objectives add alch.gunpowder dummy
 scoreboard objectives add alch.sulfur dummy
+scoreboard objectives add alch.nether_wart dummy
 scoreboard objectives add alch.acid dummy
+scoreboard objectives add alch.potion dummy
 scoreboard objectives add alch.charcoal dummy
 scoreboard objectives add alch.clay dummy
+scoreboard objectives add alch.redstone dummy
+scoreboard objectives add alch.glowstone dummy
+scoreboard objectives add alch.dragon_breath dummy
 scoreboard objectives add alch.raw_iron dummy
 scoreboard objectives add alch.raw_gold dummy
 scoreboard objectives add alch.raw_copper dummy

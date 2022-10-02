@@ -72,6 +72,16 @@ scoreboard players operation $temp alch.dummy = @s alch.sulfur
 scoreboard players operation $temp alch.dummy *= $cons.50 alch.dummy
 scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
 
+scoreboard players operation $temp alch.dummy = @s alch.nether_wart
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.nether_wart
+scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.nether_wart
+scoreboard players operation $temp alch.dummy *= $cons.50 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
 #scoreboard players operation $temp alch.dummy = @s alch.acid
 #scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy
 #scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
@@ -90,6 +100,36 @@ scoreboard players operation $temp alch.dummy *= $cons.25 alch.dummy
 scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
 scoreboard players operation $temp alch.dummy = @s alch.charcoal
 scoreboard players operation $temp alch.dummy *= $cons.25 alch.dummy
+scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.redstone
+scoreboard players operation $temp alch.dummy *= $cons.200 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+#scoreboard players operation $temp alch.dummy = @s alch.redstone
+#scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy
+#scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+#scoreboard players operation $temp alch.dummy = @s alch.redstone
+#scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy
+#scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.glowstone
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.glowstone
+scoreboard players operation $temp alch.dummy *= $cons.225 alch.dummy
+scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+#scoreboard players operation $temp alch.dummy = @s alch.glowstone
+#scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy
+#scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
+
+scoreboard players operation $temp alch.dummy = @s alch.dragon_breath
+scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
+scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
+#scoreboard players operation $temp alch.dummy = @s alch.dragon_breath
+#scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy
+#scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
+scoreboard players operation $temp alch.dummy = @s alch.dragon_breath
+scoreboard players operation $temp alch.dummy *= $cons.200 alch.dummy
 scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
 
 scoreboard players operation $temp alch.dummy = @s alch.clay
@@ -163,7 +203,7 @@ scoreboard players operation $temp alch.dummy *= $cons.65 alch.dummy
 scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
 
 #potion color processing
-execute if score @s alch.potion matches 1.. store result score $temp.potion_color alch.dummy run data get entity @s SelectedItem.tag.CustomPotionColor
+execute if score @s alch.potion matches 1.. store result score $temp.potion_color alch.dummy run data get entity @s HandItems[0].tag.alch_dat.potion.CustomPotionColor
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_red alch.dummy = $temp.potion_color alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_red alch.dummy /= $cons.65536 alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_green alch.dummy = $temp.potion_color alch.dummy
