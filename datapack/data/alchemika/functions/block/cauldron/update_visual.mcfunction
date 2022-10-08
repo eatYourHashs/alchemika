@@ -1,6 +1,6 @@
 item replace entity @s armor.head with minecraft:leather_horse_armor{display:{color:16777215},CustomModelData:426002}
 #add new hot fluids to this line
-execute unless score @s alch.lava matches 1.. unless score @s alch.molten_iron matches 1.. unless score @s alch.molten_gold matches 1.. unless score @s alch.molten_copper matches 1.. unless score @s alch.dragon_breath matches 1.. unless score @s alch.molten_orichalcum matches 1.. unless score @s alch.glowstone matches 1.. run tag @s add alch.not_hot
+execute unless score @s alch.lava matches 1.. unless score @s alch.molten_iron matches 1.. unless score @s alch.molten_gold matches 1.. unless score @s alch.molten_copper matches 1.. unless score @s alch.dragon_breath matches 1.. unless score @s alch.glowstone matches 1.. unless score @s alch.molten_orichalcum matches 1.. unless score @s alch.glowstone matches 1.. run tag @s add alch.not_hot
 #add new powder fluids to this line
 execute unless score @s alch.raw_iron matches 1.. unless score @s alch.raw_gold matches 1.. unless score @s alch.raw_copper matches 1.. unless score @s alch.snow matches 1.. unless score @s alch.gunpowder matches 1.. unless score @s alch.sulfur matches 1.. unless score @s alch.charcoal matches 1.. unless score @s alch.clay matches 1.. unless score @s alch.redstone matches 1.. unless score @s alch.glowstone matches 1.. run tag @s add alch.not_powder
 execute unless entity @s[tag=alch.not_hot] if entity @s[tag=alch.not_powder] run item replace entity @s armor.head with minecraft:leather_horse_armor{display:{color:16777215},CustomModelData:426001}
@@ -116,7 +116,7 @@ scoreboard players operation $temp alch.dummy = @s alch.glowstone
 scoreboard players operation $temp alch.dummy *= $cons.255 alch.dummy
 scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
 scoreboard players operation $temp alch.dummy = @s alch.glowstone
-scoreboard players operation $temp alch.dummy *= $cons.225 alch.dummy
+scoreboard players operation $temp alch.dummy *= $cons.180 alch.dummy
 scoreboard players operation $temp.green alch.dummy += $temp alch.dummy
 #scoreboard players operation $temp alch.dummy = @s alch.glowstone
 #scoreboard players operation $temp alch.dummy *= $cons.0 alch.dummy

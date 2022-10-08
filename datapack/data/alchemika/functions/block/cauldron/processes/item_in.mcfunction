@@ -1,6 +1,8 @@
 execute as @e[type=item,tag=!smithed.strict,dx=1,dy=0.6,dz=1,limit=1,sort=nearest] run data modify storage alchemika:storage item set from entity @s Item
 execute if data storage alchemika:storage item{id:"minecraft:bucket"} run function alchemika:block/cauldron/craft/fill_bucket
-execute if score @s alch.potion matches 1.. run function alchemika:block/cauldron/processes/potion_item_in
+execute if score @s alch.potion matches 1.. unless block ~ ~-1 ~ #alchemika:cold_source if predicate alchemika:nether run function alchemika:block/cauldron/processes/potion/item_in
+execute if score @s alch.potion matches 1.. if block ~ ~-1 ~ #alchemika:heat_source run function alchemika:block/cauldron/processes/potion/item_in
+execute if score @s alch.potion matches 1.. unless block ~ ~-1 ~ #alchemika:cold_source if score @s alch.lava matches 1.. run function alchemika:block/cauldron/processes/potion/item_in
 execute unless entity @s[tag=alch.potion_processed] if data storage alchemika:storage item{id:"minecraft:glass_bottle"} run function alchemika:block/cauldron/craft/fill_bottle
 execute unless entity @s[tag=alch.potion_processed] if data storage alchemika:storage item{id:"minecraft:potion"} if score @s alch.rm_space matches 333.. run function alchemika:block/cauldron/processes/potion/premade_potion
 execute unless entity @s[tag=alch.potion_processed] if data storage alchemika:storage item{id:"minecraft:gunpowder"} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/gunpowder
