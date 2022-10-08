@@ -4,6 +4,7 @@
     {"predicate": {"custom_model_data": 426000}, "model": "alchemika:item/empty"},
     {"predicate": {"custom_model_data": 426001}, "model": "alchemika:blocks/pure/lava"},
     {"predicate": {"custom_model_data": 426002}, "model": "alchemika:blocks/pure/powder_snow"},
-    {"predicate": {"custom_model_data": 426003}, "model": "alchemika:item/sulfur"}
+    {"predicate": {"custom_model_data": 426003}, "model": "alchemika:item/sulfur"},
+    {"predicate": {"custom_model_data": 426004}, "model": "alchemika:item/orichalcum_ingot"}
   ]
 }

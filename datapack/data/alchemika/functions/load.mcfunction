@@ -23,6 +23,7 @@ scoreboard objectives add alch.raw_copper dummy
 scoreboard objectives add alch.molten_iron dummy
 scoreboard objectives add alch.molten_gold dummy
 scoreboard objectives add alch.molten_copper dummy
+scoreboard objectives add alch.molten_orichalcum dummy
 
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
 
@@ -50,6 +51,7 @@ scoreboard players set $cons.16 alch.dummy 16
 scoreboard players set $cons.20 alch.dummy 20
 scoreboard players set $cons.25 alch.dummy 25
 scoreboard players set $cons.30 alch.dummy 30
+scoreboard players set $cons.40 alch.dummy 40
 scoreboard players set $cons.50 alch.dummy 50
 scoreboard players set $cons.60 alch.dummy 60
 scoreboard players set $cons.65 alch.dummy 65

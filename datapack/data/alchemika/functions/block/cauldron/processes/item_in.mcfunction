@@ -2,6 +2,8 @@ execute as @e[type=item,tag=!smithed.strict,dx=1,dy=0.6,dz=1,limit=1,sort=neares
 execute if data storage alchemika:storage item{id:"minecraft:bucket"} run function alchemika:block/cauldron/craft/fill_bucket
 execute if data storage alchemika:storage item{id:"minecraft:glass_bottle"} run function alchemika:block/cauldron/craft/fill_bottle
 execute if data storage alchemika:storage item{id:"minecraft:gunpowder"} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/gunpowder
+execute if data storage alchemika:storage item{id:"minecraft:glowstone_dust"} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/glowstone
+execute if data storage alchemika:storage item{id:"minecraft:redstone"} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/redstone
 execute if data storage alchemika:storage item{tag:{alch_dat:{sulfur:1b}}} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/sulfur
 execute if data storage alchemika:storage item{id:"minecraft:charcoal"} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/charcoal
 execute if data storage alchemika:storage item{id:"minecraft:raw_iron"} if score @s alch.rm_space matches 111.. run function alchemika:block/cauldron/craft/pure_add/raw_iron

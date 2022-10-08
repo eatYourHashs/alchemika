@@ -45,7 +45,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:lapis_ore",
+              "name": "minecraft:deepslate_lapis_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
