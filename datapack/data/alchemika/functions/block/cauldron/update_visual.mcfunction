@@ -214,7 +214,7 @@ scoreboard players operation $temp.blue alch.dummy += $temp alch.dummy
 
 #potion color processing
 #note to self: potion will be stored on a structure block in mainhand with CMD 426000
-execute if score @s alch.potion matches 1.. store result score $temp.potion_color alch.dummy run data get entity @s HandItems[0].tag.alch_dat.potion.CustomPotionColor
+execute if score @s alch.potion matches 1.. store result score $temp.potion_color alch.dummy run data get entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_red alch.dummy = $temp.potion_color alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_red alch.dummy /= $cons.65536 alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_green alch.dummy = $temp.potion_color alch.dummy

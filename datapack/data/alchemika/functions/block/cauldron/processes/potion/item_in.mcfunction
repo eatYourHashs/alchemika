@@ -12,7 +12,3 @@ execute if data storage alchemika:storage item{id:"minecraft:redstone"} run func
 #explode
 execute store result score $temp alch.dummy run data get entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionEffects
 execute if score $temp alch.dummy matches 2.. unless entity @s[tag=alch.orichalcum_cauldron] run function alchemika:block/cauldron/processes/potion/explode
-
-#removal
-execute if data storage alchemika:storage item{id:"minecraft:glass_bottle"} run function alchemika:block/cauldron/processes/potion/fill_bottle
-execute if data storage alchemika:storage item{id:"minecraft:arrow"} if data entity @s HandItems[{id:"minecraft:lingering_potion"}] run function alchemika:block/cauldron/processes/potion/tip_arrows
