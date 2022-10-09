@@ -71,6 +71,8 @@ scoreboard players set $cons.255 alch.dummy 255
 scoreboard players set $cons.256 alch.dummy 256
 scoreboard players set $cons.999 alch.dummy 999
 scoreboard players set $cons.65536 alch.dummy 65536
+scoreboard players set $cons.1048576 alch.dummy 1048576
+scoreboard players set $cons.16777216 alch.dummy 16777216
 
 schedule function alchemika:5tick 5t replace
 schedule function alchemika:20tick 20t replace

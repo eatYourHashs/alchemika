@@ -218,10 +218,11 @@ execute if score @s alch.potion matches 1.. store result score $temp.potion_colo
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_red alch.dummy = $temp.potion_color alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_red alch.dummy /= $cons.65536 alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_green alch.dummy = $temp.potion_color alch.dummy
-execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_green alch.dummy %= $cons.256 alch.dummy
+execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_green alch.dummy %= $cons.65536 alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_green alch.dummy /= $cons.256 alch.dummy
 execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_blue alch.dummy = $temp.potion_color alch.dummy
-execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_blue alch.dummy %= $cons.65536 alch.dummy
+execute if score @s alch.potion matches 1.. run scoreboard players operation $temp.potion_blue alch.dummy %= $cons.256 alch.dummy
+#tellraw @p ["",{"score":{"name":"$temp.potion_red","objective":"alch.dummy"},"color":"red"},{"score":{"name":"$temp.potion_green","objective":"alch.dummy"},"color":"green"},{"score":{"name":"$temp.potion_blue","objective":"alch.dummy"},"color":"blue"}]
 scoreboard players operation $temp alch.dummy = @s alch.potion
 scoreboard players operation $temp alch.dummy *= $temp.potion_red alch.dummy
 scoreboard players operation $temp.red alch.dummy += $temp alch.dummy
