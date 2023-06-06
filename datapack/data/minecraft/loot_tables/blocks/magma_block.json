@@ -5,7 +5,7 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
+          "type": "minecraft:any_ofs",
           "children": [
             {
               "type": "minecraft:item",
@@ -27,7 +27,7 @@
               "name": "minecraft:magma_block"
             },
             {
-              "type": "minecraft:alternatives",
+              "type": "minecraft:any_ofs",
               "children": [
                 {
                   "type": "minecraft:loot_table",

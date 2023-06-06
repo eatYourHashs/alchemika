@@ -3,7 +3,6 @@ scoreboard players add @s alch.total 333
 scoreboard players remove @s alch.rm_space 333
 item replace entity @s weapon.mainhand with minecraft:structure_block{CustomModelData:426000,alch_dat:{potion:{}}}
 data modify entity @s HandItems[0].tag.alch_dat.potion set from storage alchemika:storage item
-data modify entity @e[type=item,tag=!smithed.strict,dx=1,dy=0.6,dz=1,limit=1,sort=nearest] Item set value {id:"minecraft:glass_bottle",Count:1b}
 execute if data storage alchemika:storage item{tag:{Potion:"minecraft:water"}} run data modify entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor set value 1658879
 execute if data storage alchemika:storage item{tag:{Potion:"minecraft:mundane"}} run data modify entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor set value 1658879
 execute if data storage alchemika:storage item{tag:{Potion:"minecraft:thick"}} run data modify entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor set value 1658879
@@ -47,4 +46,5 @@ execute if data storage alchemika:storage item{tag:{Potion:"minecraft:strong_wea
 execute if data storage alchemika:storage item{tag:{Potion:"minecraft:slow_falling"}} run data modify entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor set value 16577749
 execute if data storage alchemika:storage item{tag:{Potion:"minecraft:long_slow_falling"}} run data modify entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor set value 16577749
 execute if data storage alchemika:storage item{tag:{Potion:"minecraft:luck"}} run data modify entity @s HandItems[0].tag.alch_dat.potion.tag.CustomPotionColor set value 3447808
+data modify storage alchemika:storage item set value {id:"minecraft:glass_bottle",Count:1b}
 tag @s add alch.update

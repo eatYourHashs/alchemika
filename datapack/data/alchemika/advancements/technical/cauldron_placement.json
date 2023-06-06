@@ -1,11 +1,20 @@
 {
 	"criteria": {
-	  "place": {
-		"trigger": "minecraft:placed_block",
-		"conditions": {
-		  "block": "minecraft:cauldron"
-		}
-	  }
+		"requirement": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+			  "location": [
+				{
+				  "condition": "minecraft:match_tool",
+				  "predicate": {
+					"items": [
+					  "minecraft:cauldron"
+					]
+				  }
+				}
+			  ]
+			}
+		  }
 	},
 	"rewards": {
 	  "function": "alchemika:block/cauldron/place_scan"
