@@ -8,11 +8,6 @@
       "type": "directory",
       "source": "alch_entity",
       "prefix": "entity/"
-    },
-    {
-      "type": "directory",
-      "source": "alch_model",
-      "prefix": "model/"
     }
   ]
 }

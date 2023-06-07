@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "alchemika:blocks/molten",
-		"particle": "alchemika:blocks/molten"
+		"0": "alchemika:block/fluid",
+		"particle": "alchemika:block/fluid"
 	},
 	"elements": [
 		{

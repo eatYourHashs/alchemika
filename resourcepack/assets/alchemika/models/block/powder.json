@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "alchemika:blocks/powder",
-		"particle": "alchemika:blocks/powder"
+		"0": "alchemika:block/powder",
+		"particle": "alchemika:block/powder"
 	},
 	"elements": [
 		{
