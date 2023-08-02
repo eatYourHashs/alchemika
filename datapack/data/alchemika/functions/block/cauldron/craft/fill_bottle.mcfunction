@@ -1,1 +1,0 @@
-execute if score @s alch.water matches 333.. run function alchemika:block/cauldron/craft/fill_bottle_water

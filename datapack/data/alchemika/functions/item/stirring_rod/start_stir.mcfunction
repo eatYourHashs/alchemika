@@ -1,1 +1,0 @@
-scoreboard players set @s alch.stir_timer 40

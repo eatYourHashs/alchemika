@@ -1,1 +1,1 @@
-execute if entity @s[tag=alch.cauldron] run function alchemika:block/cauldron/5tick
+#execute if entity @s[tag=alch.cauldron] run function alchemika:block/cauldron/5tick

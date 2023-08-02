@@ -1,2 +1,0 @@
-summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoGravity:1b,Invulnerable:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.cauldron","alch.ticking","alch.5ticking","alch.20ticking"]}
-scoreboard players set @e[tag=alch.cauldron,limit=1,sort=nearest] alch.rm_space 999
