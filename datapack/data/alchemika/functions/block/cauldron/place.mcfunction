@@ -1,2 +1,2 @@
-summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoGravity:1b,Invulnerable:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.cauldron","alch.ticking","alch.5ticking","alch.20ticking"]}
+summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:426003,alch_dat:{cauldron:[]}}},NoGravity:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.cauldron","alch.ticking","alch.5ticking","alch.20ticking"]}
 execute as @e[tag=alch.cauldron,limit=1,sort=nearest] at @s run function alchemika:block/cauldron/place_as

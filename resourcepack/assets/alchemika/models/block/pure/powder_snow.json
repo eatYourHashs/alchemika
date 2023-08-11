@@ -6,8 +6,8 @@
 	},
 	"elements": [
 		{
-			"from": [1, 15, 1],
-			"to": [15, 16, 15],
+			"from": [1, 14, 1],
+			"to": [15, 15, 15],
 			"faces": {
 				"up": {"uv": [1, 1, 15, 15], "texture": "#0", "tintindex": 0}
 			}
@@ -15,7 +15,7 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, -44, 0],
+			"translation": [0, -48, 0],
 			"scale": [1.6, 1.6, 1.6]
 		}
 	}

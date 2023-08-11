@@ -1,17 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "alchemika:block/fluid",
 		"particle": "alchemika:block/fluid"
 	},
 	"elements": [
-		{
-			"from": [1, 14, 1],
-			"to": [15, 15, 15],
-			"faces": {
-				"up": {"uv": [1, 1, 15, 15], "texture": "#0", "tintindex": 0}
-			}
-		}
+		
 	],
 	"display": {
 		"head": {

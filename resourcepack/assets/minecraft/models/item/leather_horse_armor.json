@@ -6,6 +6,7 @@
   "overrides": [
     {"predicate": {"custom_model_data": 426000}, "model": "alchemika:block/fluid"},
     {"predicate": {"custom_model_data": 426001}, "model": "alchemika:block/molten"},
-    {"predicate": {"custom_model_data": 426002}, "model": "alchemika:block/powder"}
+    {"predicate": {"custom_model_data": 426002}, "model": "alchemika:block/powder"},
+    {"predicate": {"custom_model_data": 426003}, "model": "alchemika:block/empty"}
   ]
 }
