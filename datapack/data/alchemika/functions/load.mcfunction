@@ -1,5 +1,8 @@
 scoreboard objectives add alch.dummy dummy
 
+scoreboard objectives add alch.capacity dummy
+scoreboard objectives add alch.rm_space dummy
+
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard players set $cons.-100 alch.dummy -100
