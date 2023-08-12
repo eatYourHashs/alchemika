@@ -55,3 +55,6 @@ scoreboard players set $cons.16777216 alch.dummy 16777216
 schedule function alchemika:5tick 5t replace
 schedule function alchemika:20tick 20t replace
 schedule function alchemika:100tick 100t replace
+
+data modify storage alchemika:registry materials set value [{id:"water",red:25,blue:255,green:80},{id:"lava",red:200,blue:10,green:75,hot:1b,pure:426001},{id:"powder_snow",red:255,blue:255,green:255,powder:1b,pure:426002},{id:"gunpowder",red:125,blue:125,green:125,powder:1b},{id:"sulfur",red:255,blue:50,green:255,powder:1b},{id:"acid",red:0,blue:0,green:255}]
+function #alchemika:addon_recipes
