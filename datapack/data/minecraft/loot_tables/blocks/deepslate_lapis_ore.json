@@ -41,7 +41,7 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:any_of",
+          "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
