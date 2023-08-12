@@ -1,6 +1,7 @@
 scoreboard objectives add alch.dummy dummy
 
 scoreboard objectives add alch.capacity dummy
+scoreboard objectives add alch.used_space dummy
 scoreboard objectives add alch.rm_space dummy
 
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
@@ -56,5 +57,5 @@ schedule function alchemika:5tick 5t replace
 schedule function alchemika:20tick 20t replace
 schedule function alchemika:100tick 100t replace
 
-data modify storage alchemika:registry materials set value [{id:"water",red:25,blue:255,green:80},{id:"lava",red:200,blue:10,green:75,hot:1b,pure:426001},{id:"powder_snow",red:255,blue:255,green:255,powder:1b,pure:426002},{id:"gunpowder",red:125,blue:125,green:125,powder:1b},{id:"sulfur",red:255,blue:50,green:255,powder:1b},{id:"acid",red:0,blue:0,green:255}]
+data modify storage alchemika:registry materials set value [{id:"water",red:25,blue:255,green:80,tag:"normal",pure:0},{id:"lava",red:200,blue:10,green:75,tag:"hot",pure:426001},{id:"powder_snow",red:255,blue:255,green:255,tag:"powder",pure:426002},{id:"gunpowder",red:125,blue:125,green:125,tag:"powder",pure:0},{id:"sulfur",red:255,blue:50,green:255,tag:"powder",pure:0},{id:"acid",red:0,blue:0,green:255,tag:"normal",pure:0}]
 function #alchemika:addon_recipes
