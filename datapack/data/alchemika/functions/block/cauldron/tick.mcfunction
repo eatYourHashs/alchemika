@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ cauldron run function alchemika:block/cauldron/break
