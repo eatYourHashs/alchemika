@@ -1,4 +1,6 @@
-item replace entity @s armor.head with minecraft:leather_horse_armor{display:{color:16777215},CustomModelData:426003}
+data modify entity @s item.id set value "minecraft:leather_horse_armor"
+data modify entity @s item.tag.display set value {color:16777215}
+data modify entity @s item.tag.CustomModelData set value 426003
 scoreboard players set $temp.count alch.dummy 0
 execute store result score $temp.count alch.dummy run data get entity @s item.tag.alch_dat.cauldron
 data modify storage alchemika:storage temp.cauldron set from entity @s item.tag.alch_dat.cauldron

@@ -13,6 +13,7 @@ scoreboard players set $cons.-5 alch.dummy -5
 scoreboard players set $cons.-3 alch.dummy -3
 scoreboard players set $cons.-2 alch.dummy -2
 scoreboard players set $cons.-1 alch.dummy -1
+scoreboard players set $cons.0 alch.dummy 0
 scoreboard players set $cons.2 alch.dummy 2
 scoreboard players set $cons.3 alch.dummy 3
 scoreboard players set $cons.4 alch.dummy 4
