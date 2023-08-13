@@ -20,13 +20,13 @@ execute store result entity @s item.tag.display.color int 1 run scoreboard playe
 scoreboard players operation $temp alch.dummy = @s alch.rm_space
 scoreboard players operation $temp alch.dummy *= $cons.1000 alch.dummy
 scoreboard players operation $temp alch.dummy /= @s alch.capacity
-execute store result entity @s transformation.translation[1] float -0.0008 run scoreboard players get $temp alch.dummy
+execute store result entity @s transformation.translation[1] float -0.0006 run scoreboard players get $temp alch.dummy
 
 
 execute if entity @s[tag=alch.normal,tag=!alch.hot,tag=!alch.powder,tag=!alch.pure] run data modify entity @s item.tag.CustomModelData set value 426000
 execute if entity @s[tag=alch.hot,tag=!alch.powder,tag=!alch.pure] run data modify entity @s item.tag.CustomModelData set value 426001
-execute if entity @s[alch.powder,tag=!alch.pure] run data modify entity @s item.tag.CustomModelData set value 426002
-execute if entity @s[alch.pure] run data modify entity @s item.id set value "minecraft:structure_block"
+execute if entity @s[tag=alch.powder,tag=!alch.pure] run data modify entity @s item.tag.CustomModelData set value 426002
+execute if entity @s[tag=alch.pure] run data modify entity @s item.id set value "minecraft:structure_block"
 tag @s remove alch.normal
 tag @s remove alch.hot
 tag @s remove alch.powder

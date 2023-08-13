@@ -1,1 +1,2 @@
-execute unless block ~ ~ ~ cauldron run function alchemika:block/cauldron/break
+execute if block ~ ~ ~ #minecraft:cauldrons unless block ~ ~ ~ minecraft:cauldron run setblock ~ ~ ~ cauldron
+execute unless block ~ ~ ~ #minecraft:cauldrons run function alchemika:block/cauldron/break
