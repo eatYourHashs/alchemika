@@ -14,5 +14,6 @@ execute unless score $temp.existing alch.dummy matches 1.. run data modify stora
 execute unless score $temp.existing alch.dummy matches 1.. run data modify storage alchemika:storage temp.material.amount set from storage alchemika:storage temp.matched_recipes[0].material_amount
 execute unless score $temp.existing alch.dummy matches 1.. unless data storage alchemika:storage temp.material{id:"none"} run data modify entity @s item.tag.alch_dat.cauldron append from storage alchemika:storage temp.material
 $execute if score $temp.existing alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(out_material_id)}].amount int 1 run scoreboard players get $temp.out_amount alch.dummy
+$execute at @a[tag=alch.interacter] run loot spawn ~ ~ ~ loot $(loot)
 function alchemika:block/cauldron/update/update_visual
 tag @s add alch.matched
