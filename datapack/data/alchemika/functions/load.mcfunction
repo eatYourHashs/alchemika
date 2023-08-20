@@ -60,6 +60,9 @@ schedule function alchemika:20tick 20t replace
 schedule function alchemika:100tick 100t replace
 
 data modify storage alchemika:registry materials set value [{id:"water",red:25,blue:255,green:80,tag:"normal",pure:0},{id:"lava",red:200,blue:10,green:75,tag:"hot",pure:426001},{id:"powder_snow",red:255,blue:255,green:255,tag:"powder",pure:426002},{id:"gunpowder",red:125,blue:125,green:125,tag:"powder",pure:0},{id:"sulfur",red:255,blue:50,green:255,tag:"powder",pure:0},{id:"acid",red:0,blue:0,green:255,tag:"normal",pure:0}]
-data modify storage alchemika:registry recipes.item_in set value [{id:"minecraft:gunpowder",tag:{},material_id:"gunpowder",material_amount:111}]
+data modify storage alchemika:registry recipes.item_in set value [{id:"minecraft:gunpowder",tag:{},material_id:"gunpowder",material_amount:111},{id:"minecraft:structure_block",tag:{alch_dat:{sulfur:1b}},material_id:"sulfur",material_amount:111}]
 data modify storage alchemika:registry recipes.item_in_with_material set value [{id:"minecraft:iron_ingot",tag:{},in_material_id:"clay",in_material_amount:444,loot:"alchemika:items/ingot_cast",out_material_id:"none",out_material_amount:0}]
+data modify storage alchemika:registry recipes.stir set value []
+data modify storage alchemika:registry recipes.scoop set value [{material_id:"gunpowder",material_amount:111,loot:"alchemika:vanilla_items/gunpowder"},{material_id:"charcoal",material_amount:111,loot:"alchemika:vanilla_items/charcoal"},{material_id:"sulfur",material_amount:111,loot:"alchemika:items/sulfur"}]
+data modify storage alchemika:registry recipes.ingot_cast set value []
 function #alchemika:addon_registry
