@@ -1,4 +1,5 @@
 tag @s add alch.interacter
+data remove storage alchemika:storage temp.item
 data modify storage alchemika:storage temp.item set from entity @s SelectedItem
 #if i want to whitelist tags i should do that here
 execute unless data storage alchemika:storage temp.item.tag run data modify storage alchemika:storage temp.item.tag set value {}
