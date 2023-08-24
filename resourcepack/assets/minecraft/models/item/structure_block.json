@@ -5,6 +5,10 @@
     {"predicate": {"custom_model_data": 426001}, "model": "alchemika:block/pure/lava"},
     {"predicate": {"custom_model_data": 426002}, "model": "alchemika:block/pure/powder_snow"},
     {"predicate": {"custom_model_data": 426003}, "model": "alchemika:item/sulfur"},
-    {"predicate": {"custom_model_data": 426004}, "model": "alchemika:item/orichalcum_ingot"}
+    {"predicate": {"custom_model_data": 426004}, "model": "alchemika:item/orichalcum_ingot"},
+    {"predicate": {"custom_model_data": 426005}, "model": "alchemika:block/pure/clay"},
+    {"predicate": {"custom_model_data": 426006}, "model": "alchemika:block/pure/raw_iron"},
+    {"predicate": {"custom_model_data": 426007}, "model": "alchemika:block/pure/raw_copper"},
+    {"predicate": {"custom_model_data": 426008}, "model": "alchemika:block/pure/raw_gold"}
   ]
 }
