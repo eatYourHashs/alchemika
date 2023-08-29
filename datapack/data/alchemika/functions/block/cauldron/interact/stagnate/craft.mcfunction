@@ -1,6 +1,5 @@
 $scoreboard players set $temp.out1_amount alch.dummy $(out1_material_amount)
 $scoreboard players set $temp.out2_amount alch.dummy $(out2_material_amount)
-playsound minecraft:item.bottle.fill player @a
 scoreboard players operation @s alch.rm_space -= $temp.change alch.dummy
 scoreboard players operation @s alch.used_space += $temp.change alch.dummy
 scoreboard players set $temp.existing1 alch.dummy 0
@@ -30,4 +29,3 @@ execute unless score $temp.existing2 alch.dummy matches 1.. unless data storage 
 $execute if score $temp.existing2 alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(out2_material_id)}].amount int 1 run scoreboard players get $temp.out2_amount alch.dummy
 function alchemika:block/cauldron/update/update_visual
 tag @s add alch.matched
-scoreboard players set @s alch.interact_timer 0

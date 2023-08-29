@@ -13,3 +13,4 @@ execute unless score $temp.existing alch.dummy matches 1.. run data modify entit
 $execute if score $temp.existing alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(material_id)}].amount int 1 run scoreboard players get $temp.amount alch.dummy
 function alchemika:block/cauldron/update/update_visual
 tag @s add alch.matched
+scoreboard players set @s alch.interact_timer 0

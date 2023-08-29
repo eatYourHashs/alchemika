@@ -8,3 +8,4 @@ $execute if score $temp.amount alch.dummy matches ..0 run data remove entity @s 
 $execute at @a[tag=alch.interacter] run loot spawn ~ ~ ~ loot $(loot)
 function alchemika:block/cauldron/update/update_visual
 tag @s add alch.matched
+scoreboard players set @s alch.interact_timer 0
