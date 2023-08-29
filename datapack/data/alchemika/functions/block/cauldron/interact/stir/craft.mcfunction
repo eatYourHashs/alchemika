@@ -22,11 +22,11 @@ execute unless score $temp.existing1 alch.dummy matches 1.. run data modify stor
 execute unless score $temp.existing1 alch.dummy matches 1.. run data modify storage alchemika:storage temp.material.id set from storage alchemika:storage temp.matched_recipes[0].out1_material_id
 execute unless score $temp.existing1 alch.dummy matches 1.. run data modify storage alchemika:storage temp.material.amount set from storage alchemika:storage temp.matched_recipes[0].out1_material_amount
 execute unless score $temp.existing1 alch.dummy matches 1.. unless data storage alchemika:storage temp.material{id:"none"} run data modify entity @s item.tag.alch_dat.cauldron append from storage alchemika:storage temp.material
-$execute if score $temp.existing1 alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(out1_material_id)}].amount int 1 run scoreboard players get $temp.out_amount alch.dummy
+$execute if score $temp.existing1 alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(out1_material_id)}].amount int 1 run scoreboard players get $temp.out1_amount alch.dummy
 execute unless score $temp.existing2 alch.dummy matches 1.. run data modify storage alchemika:storage temp.material set value {}
 execute unless score $temp.existing2 alch.dummy matches 1.. run data modify storage alchemika:storage temp.material.id set from storage alchemika:storage temp.matched_recipes[0].out2_material_id
 execute unless score $temp.existing2 alch.dummy matches 1.. run data modify storage alchemika:storage temp.material.amount set from storage alchemika:storage temp.matched_recipes[0].out2_material_amount
 execute unless score $temp.existing2 alch.dummy matches 1.. unless data storage alchemika:storage temp.material{id:"none"} run data modify entity @s item.tag.alch_dat.cauldron append from storage alchemika:storage temp.material
-$execute if score $temp.existing2 alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(out2_material_id)}].amount int 1 run scoreboard players get $temp.out_amount alch.dummy
+$execute if score $temp.existing2 alch.dummy matches 1.. store result entity @s item.tag.alch_dat.cauldron[{id:$(out2_material_id)}].amount int 1 run scoreboard players get $temp.out2_amount alch.dummy
 function alchemika:block/cauldron/update/update_visual
 tag @s add alch.matched
