@@ -1,9 +1,10 @@
+data modify storage alchemika:storage temp.cauldron2 set from entity @s item.tag.alch_dat.cauldron
 scoreboard players set $temp.amount1 alch.dummy 0
-$execute store result score $temp.amount1 alch.dummy run data get storage alchemika:storage temp.cauldron[{id:"$(in1_material_id)"}].amount
+$execute store result score $temp.amount1 alch.dummy run data get storage alchemika:storage temp.cauldron2[{id:"$(in1_material_id)"}].amount
 scoreboard players set $temp.amount2 alch.dummy 0
-$execute store result score $temp.amount2 alch.dummy run data get storage alchemika:storage temp.cauldron[{id:"$(in2_material_id)"}].amount
+$execute store result score $temp.amount2 alch.dummy run data get storage alchemika:storage temp.cauldron2[{id:"$(in2_material_id)"}].amount
 scoreboard players set $temp.amount3 alch.dummy 0
-$execute store result score $temp.amount3 alch.dummy run data get storage alchemika:storage temp.cauldron[{id:"$(in3_material_id)"}].amount
+$execute store result score $temp.amount3 alch.dummy run data get storage alchemika:storage temp.cauldron2[{id:"$(in3_material_id)"}].amount
 $scoreboard players set $temp.change alch.dummy $(out1_material_amount)
 $scoreboard players add $temp.change alch.dummy $(out2_material_amount)
 $scoreboard players remove $temp.change alch.dummy $(in1_material_amount)

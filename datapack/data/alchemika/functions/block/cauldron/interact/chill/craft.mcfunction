@@ -1,6 +1,7 @@
 $scoreboard players set $temp.out1_amount alch.dummy $(out1_material_amount)
 $scoreboard players set $temp.out2_amount alch.dummy $(out2_material_amount)
-playsound minecraft:block.fire.extinguish block @a
+execute if predicate alchemika:random/one_half run playsound minecraft:block.fire.extinguish block @a
+execute if predicate alchemika:random/one_half run particle minecraft:snowflake ~ ~0.2 ~ 0.2 0.2 0.2 0.5 10
 scoreboard players operation @s alch.rm_space -= $temp.change alch.dummy
 scoreboard players operation @s alch.used_space += $temp.change alch.dummy
 scoreboard players set $temp.existing1 alch.dummy 0
