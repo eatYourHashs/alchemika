@@ -14,3 +14,4 @@ $execute if score $temp.amount1 alch.dummy matches $(in1_material_amount).. if s
 data remove storage alchemika:storage temp.matched_recipes[0]
 scoreboard players remove $temp.recipe_count alch.dummy 1
 execute if score $temp.recipe_count alch.dummy matches 1.. run function alchemika:block/cauldron/interact/stir/iter_recipe with storage alchemika:storage temp.matched_recipes[0]
+say c
