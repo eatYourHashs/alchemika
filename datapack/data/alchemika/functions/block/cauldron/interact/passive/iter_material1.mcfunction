@@ -6,4 +6,3 @@ execute unless score $temp.recipe_count alch.dummy matches 0 run function alchem
 data remove storage alchemika:storage temp.cauldron[0]
 scoreboard players remove $temp.count alch.dummy 1
 execute if score $temp.count alch.dummy matches 1.. run function alchemika:block/cauldron/interact/passive/iter_material1 with storage alchemika:storage temp.cauldron[0]
-say b
