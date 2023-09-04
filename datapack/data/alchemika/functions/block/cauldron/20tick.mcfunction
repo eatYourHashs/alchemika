@@ -1,4 +1,5 @@
 execute if block ~ ~-1 ~ #alchemika:heat_source run function alchemika:block/cauldron/heat
+execute if block ~ ~-1 ~ #alchemika:soulburn_source run function alchemika:block/cauldron/soulburn
 execute if predicate alchemika:nether run function alchemika:block/cauldron/heat
 execute if block ~ ~-1 ~ #alchemika:cold_source run function alchemika:block/cauldron/interact/chill/check
 function alchemika:block/cauldron/interact/passive/check
