@@ -9,6 +9,8 @@
     {"predicate": {"custom_model_data": 426005}, "model": "alchemika:block/pure/clay"},
     {"predicate": {"custom_model_data": 426006}, "model": "alchemika:block/pure/raw_iron"},
     {"predicate": {"custom_model_data": 426007}, "model": "alchemika:block/pure/raw_copper"},
-    {"predicate": {"custom_model_data": 426008}, "model": "alchemika:block/pure/raw_gold"}
+    {"predicate": {"custom_model_data": 426008}, "model": "alchemika:block/pure/raw_gold"},
+    {"predicate": {"custom_model_data": 426009}, "model": "alchemika:item/cinnabar"},
+    {"predicate": {"custom_model_data": 426010}, "model": "alchemika:item/impure_skysilver"}
   ]
 }

@@ -1,9 +1,8 @@
 {
   "item.minecraft.knowledge_book": "Click to craft",
   "item.alch.stirring_rod": "Stirring Rod",
-  "item.alch.stirring_rod.lore.0": "Right click a cauldron to stir.",
-  "item.alch.stirring_rod.lore.1": "Stir quickly to separate mixtures.",
-  "item.alch.stirring_rod.lore.2": "Stir slowly to combine substances.",
+  "item.alch.stirring_rod.lore.0": "Right click a cauldron to combine substances.",
+  "item.alch.stirring_rod.lore.1": "Let rest to uncombine some substances.",
   "item.alch.ingot_cast": "Ingot Cast",
   "item.alch.ingot_cast.lore.0": "Right click a cauldron with molten metal",
   "item.alch.ingot_cast.lore.1": "to cast an ingot.",
@@ -12,5 +11,7 @@
   "item.alch.scoop.lore.1": "one solid item from it.",
   "item.alch.sulfur": "Sulfur",
   "item.alch.orichalcum_ingot": "Orichalcum Ingot",
-  "item.alch.alchemical_potion": "Alchemical Potion"
+  "item.alch.alchemical_potion": "Alchemical Potion",
+  "item.alch.cinnabar": "Cinnabar",
+  "item.alch.impure_skysilver": "Impure Skysilver"
 }
