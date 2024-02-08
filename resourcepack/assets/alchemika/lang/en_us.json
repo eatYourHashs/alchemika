@@ -13,5 +13,8 @@
   "item.alch.orichalcum_ingot": "Orichalcum Ingot",
   "item.alch.alchemical_potion": "Alchemical Potion",
   "item.alch.cinnabar": "Cinnabar",
-  "item.alch.impure_skysilver": "Impure Skysilver"
+  "item.alch.impure_skysilver": "Impure Skysilver",
+  "item.alch.salt": "Salt",
+  "item.alch.mystery_morsel": "Mystery Morsel",
+  "item.alch.unidentified_stew": "Unidentified Stew"
 }

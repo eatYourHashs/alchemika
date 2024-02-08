@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"requirement": {
+		  "trigger": "minecraft:consume_item",
+		  "conditions": {
+			"item": {
+			  "items": [
+				"minecraft:baked_potato"
+			  ],
+			  "nbt": "{alch_dat:{mystery_morsel:1b}}"
+			}
+		  }
+		}
+	  },
+	"rewards": {
+	  "function": "alchemika:item/mystery_morsel/eat"
+	}
+  }
+  
