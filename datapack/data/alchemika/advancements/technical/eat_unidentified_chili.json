@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"requirement": {
+		  "trigger": "minecraft:consume_item",
+		  "conditions": {
+			"item": {
+			  "items": [
+				"minecraft:rabbit_stew"
+			  ],
+			  "nbt": "{alch_dat:{unidentified_chili:1b}}"
+			}
+		  }
+		}
+	  },
+	"rewards": {
+	  "function": "alchemika:item/unidentified_chili/eat"
+	}
+  }
+  
