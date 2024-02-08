@@ -12,6 +12,7 @@
     {"predicate": {"custom_model_data": 426008}, "model": "alchemika:block/pure/raw_gold"},
     {"predicate": {"custom_model_data": 426009}, "model": "alchemika:item/cinnabar"},
     {"predicate": {"custom_model_data": 426010}, "model": "alchemika:item/impure_skysilver"},
-    {"predicate": {"custom_model_data": 426011}, "model": "alchemika:item/salt"}
+    {"predicate": {"custom_model_data": 426011}, "model": "alchemika:item/salt"},
+    {"predicate": {"custom_model_data": 426012}, "model": "alchemika:block/pure/sculk_fiber"}
   ]
 }
