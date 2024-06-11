@@ -7,7 +7,7 @@
 				  {
 					"condition": "minecraft:match_tool",
 					"predicate": {
-					  "nbt": "{BlockEntityTag:{Items:[{tag:{alch_dat:{placed_block:1b}}}]}}"
+					  "nbt": "{BlockEntityTag:{Items:[{tag:{alch_dat:{placed_block:true}}}]}}"
 					}
 				  }
 				]
