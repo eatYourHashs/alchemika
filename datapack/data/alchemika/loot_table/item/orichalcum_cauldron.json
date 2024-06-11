@@ -24,7 +24,27 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426000
+                            "minecraft:custom_model_data": 426000,
+                            "minecraft:container": [
+                                {
+                                  "slot": 0,
+                                  "item": {
+                                    "id": "minecraft:barrier",
+                                    "count": 1,
+                                    "components": {
+                                      "minecraft:custom_data": {
+                                        "alch_dat": {
+                                          "placed_block": true,
+                                          "block": "orichalcum_cauldron"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "minecraft:block_entity_data": {
+                                "id": "minecraft:dropper"
+                              }
                           }
                         },
                         {
@@ -34,23 +54,7 @@
                                 "italic": false,
                                 "translate": "item.alch.orichalcum_cauldron"
                             }
-                        },
-                        {
-                            "function": "minecraft:set_contents",
-                            "component": "minecraft:container",
-                            "entries": [
-                              {
-                                "type": "minecraft:item",
-                                "name": "minecraft:barrier",
-                                "functions": [
-                                  {
-                                    "function": "minecraft:set_custom_data",
-                                    "tag": "{alch_dat:{placed_block:1b,block:\"orichalcum_cauldron\"}}"
-                                  }
-                                ]
-                              }
-                            ]
-                          }
+                        }
                     ]
                 }
             ]
