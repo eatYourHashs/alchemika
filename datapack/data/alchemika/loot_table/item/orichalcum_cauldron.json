@@ -36,9 +36,21 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{id:\"minecraft:dropper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{alch_dat:{placed_block:1b,block:\"orichalcum_cauldron\"}}}]}}"
-                        }
+                            "function": "minecraft:set_contents",
+                            "component": "minecraft:container",
+                            "entries": [
+                              {
+                                "type": "minecraft:item",
+                                "name": "minecraft:barrier",
+                                "functions": [
+                                  {
+                                    "function": "minecraft:set_custom_data",
+                                    "tag": "{alch_dat:{placed_block:1b,block:\"orichalcum_cauldron\"}}"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
                     ]
                 }
             ]
