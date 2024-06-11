@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "alchemika:item/sulfur"
+          "value": "alchemika:item/sulfur"
         }
       ],
       "conditions": [

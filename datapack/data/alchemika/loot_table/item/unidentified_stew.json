@@ -9,9 +9,8 @@
                     "functions": [
                         {
                             "function": "minecraft:set_name",
+                            "target": "item_name",
                             "name": {
-                                "color": "white",
-                                "italic": false,
                                 "translate": "item.alch.unidentified_stew"
                             }
                         },
@@ -22,7 +21,8 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426001
+                            "minecraft:custom_model_data": 426001,
+                            "minecraft:rarity": "common"
                           }
                         }
                     ]

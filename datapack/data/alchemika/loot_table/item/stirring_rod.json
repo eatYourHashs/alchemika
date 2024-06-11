@@ -25,9 +25,8 @@
                         },
                         {
                             "function": "minecraft:set_name",
+                            "target": "item_name",
                             "name": {
-                                "color": "white",
-                                "italic": false,
                                 "translate": "item.alch.stirring_rod"
                             }
                         },
@@ -38,7 +37,8 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426000
+                            "minecraft:custom_model_data": 426000,
+                            "minecraft:rarity": "common"
                           }
                         }
                     ]

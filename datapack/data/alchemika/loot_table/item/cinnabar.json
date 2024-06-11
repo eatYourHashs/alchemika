@@ -9,10 +9,9 @@
             "functions": [
               {
                 "function": "minecraft:set_name",
+                "target": "item_name",
                 "name": {
-                  "translate": "item.alch.cinnabar",
-                  "color": "white",
-                  "italic": false
+                  "translate": "item.alch.cinnabar"
                 }
               },
               {
@@ -22,7 +21,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 426009
+                  "minecraft:custom_model_data": 426009,
+                  "minecraft:rarity": "common"
                 }
               }
             ]

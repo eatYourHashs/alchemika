@@ -44,7 +44,7 @@
                       "enchantment": "minecraft:fortune"
                     }
                   ],
-                  "name": "alchemika:item/sulfur"
+                  "value": "alchemika:item/sulfur"
                 },
                 {
                   "type": "minecraft:item",
