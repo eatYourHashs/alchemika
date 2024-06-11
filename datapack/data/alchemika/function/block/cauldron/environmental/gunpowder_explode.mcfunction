@@ -1,4 +1,4 @@
-execute store result score $temp.amount alch.dummy run data get entity @s item.tag.alch_dat.cauldron[{id:"gunpowder"}].amount
+execute store result score $temp.amount alch.dummy run data get entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:"gunpowder"}].amount
 scoreboard players operation $temp.amount alch.dummy /= $cons.100 alch.dummy
 scoreboard players add $temp.amount alch.dummy 1
 setblock ~ ~ ~ air

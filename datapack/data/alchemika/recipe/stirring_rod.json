@@ -13,7 +13,8 @@
     }
   },
   "result": {
-    "item": "minecraft:knowledge_book",
-    "count": 1
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {"minecraft:custom_model_data": 426000, "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.alch.stirring_rod.lore.0\"}", "{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.alch.stirring_rod.lore.1\"}"], "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"item.alch.stirring_rod\"}", "minecraft:custom_data": {"alch_dat": {"stirring_rod": 1}}}
   }
 }

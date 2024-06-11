@@ -15,7 +15,8 @@
                                     "italic": false,
                                     "translate": "item.alch.orichalcum_cauldron.lore.0"
                                 }
-                            ]
+                            ],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_custom_data",

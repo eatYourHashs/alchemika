@@ -1,4 +1,4 @@
-data modify storage alchemika:storage temp.cauldron2 set from entity @s item.tag.alch_dat.cauldron
+data modify storage alchemika:storage temp.cauldron2 set from entity @s item.components."minecraft:custom_data".alch_dat.cauldron
 scoreboard players set $temp.amount1 alch.dummy 0
 $execute store result score $temp.amount1 alch.dummy run data get storage alchemika:storage temp.cauldron2[{id:"$(in1_material_id)"}].amount
 scoreboard players set $temp.amount2 alch.dummy 0
