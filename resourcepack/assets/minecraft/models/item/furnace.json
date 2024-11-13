@@ -7,11 +7,11 @@
       "model": "alchemika:block/orichalcum_cauldron"
     },
     {
-        "predicate": {
-          "custom_model_data": 4250001
-        },
-        "model": "smithed.crafter:block/table"
-      }
+      "predicate": {
+        "custom_model_data": 4250001
+      },
+      "model": "smithed.crafter:item/table"
+    }
     ]
   }
   
