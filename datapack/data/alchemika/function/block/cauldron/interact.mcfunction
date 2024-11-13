@@ -13,3 +13,4 @@ execute if data storage alchemika:storage temp.item.components."minecraft:custom
 execute if data storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat{ingot_cast:1b} at @s as @e[tag=alch.cauldron_interaction,distance=..10] if data entity @s interaction at @s as @e[tag=alch.cauldron,limit=1,sort=nearest] run function alchemika:block/cauldron/interact/ingot_cast/check
 advancement revoke @s only alchemika:technical/cauldron_interact
 tag @s remove alch.interacter
+say test

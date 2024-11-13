@@ -1,1 +1,1 @@
-execute if data block ~ ~ ~ {Items:[{tag:{alch_dat:{placed_block:true,block:"orichalcum_cauldron"}}}]} run function alchemika:block/cauldron/variants/orichalcum/place
+execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"orichalcum_cauldron"}}}}]} run function alchemika:block/cauldron/variants/orichalcum/place
