@@ -5,9 +5,7 @@
     "q "
   ],
   "key": {
-    "q": {
-      "item": "minecraft:quartz"
-    }
+    "q": "minecraft:quartz"
   },
   "result": {
     "id": "minecraft:carrot_on_a_stick",
