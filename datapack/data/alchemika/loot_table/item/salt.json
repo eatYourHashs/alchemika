@@ -21,7 +21,7 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426011,
+                            "minecraft:item_model": "alchemika:salt",
                             "minecraft:rarity": "common"
                           }
                         }

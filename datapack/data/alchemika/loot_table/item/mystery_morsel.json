@@ -21,7 +21,7 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426000,
+                            "minecraft:item_model": "alchemika:mystery_morsel",
                             "minecraft:rarity": "common"
                           }
                         }

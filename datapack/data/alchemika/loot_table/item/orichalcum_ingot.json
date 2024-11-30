@@ -21,7 +21,7 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426004,
+                            "minecraft:item_model": "alchemika:orichalcum_ingot",
                             "minecraft:rarity": "common"
                           }
                         }

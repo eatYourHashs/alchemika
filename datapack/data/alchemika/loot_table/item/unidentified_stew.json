@@ -21,7 +21,7 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:custom_model_data": 426001,
+                            "minecraft:item_model": "alchemika:unidentified_stew",
                             "minecraft:rarity": "common"
                           }
                         }

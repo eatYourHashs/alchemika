@@ -21,7 +21,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 426009,
+                  "minecraft:item_model": "alchemika:cinnabar",
                   "minecraft:rarity": "common"
                 }
               }
