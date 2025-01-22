@@ -8,4 +8,3 @@ execute unless entity @s[tag=alch.matched] store result score $temp.matches alch
 execute unless entity @s[tag=alch.matched] if score $temp.matches alch.dummy matches 1.. run function alchemika:block/cauldron/interact/iterate_matched with storage alchemika:storage temp.matched_recipes[0]
 data remove entity @e[tag=alch.cauldron_interaction,limit=1,sort=nearest] interaction
 tag @s remove alch.matched
-say test2
