@@ -11,22 +11,22 @@
                             "function": "minecraft:set_name",
                             "target": "item_name",
                             "name": {
-                                "translate": "item.alch.bacon"
+                                "translate": "item.alch.blaze_roasted_bacon"
                             }
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{bacon:1b}}"
+                            "tag": "{alch_dat:{blaze_roasted_bacon:1b}}"
                         },
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:item_model": "alchemika:bacon",
+                            "minecraft:item_model": "alchemika:blaze_roasted_bacon",
                             "minecraft:rarity": "common",
                             "minecraft:consumable": {},
                             "minecraft:food": {
-                                "nutrition": 6,
-                                "saturation": 3.6
+                                "nutrition": 8,
+                                "saturation": 4.8
                             }
                           }
                         }
