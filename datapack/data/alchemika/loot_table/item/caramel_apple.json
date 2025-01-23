@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.caramel_apple"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{caramel_apple:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:caramel_apple",
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {},
+                            "minecraft:food": {
+                                "nutrition": 6,
+                                "saturation": 7.2
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
