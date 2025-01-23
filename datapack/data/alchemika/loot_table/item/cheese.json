@@ -11,25 +11,22 @@
                             "function": "minecraft:set_name",
                             "target": "item_name",
                             "name": {
-                                "translate": "item.alch.unidentified_stew"
+                                "translate": "item.alch.cheese"
                             }
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{unidentified_stew:1b}}"
+                            "tag": "{alch_dat:{cheese:1b}}"
                         },
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:item_model": "alchemika:unidentified_stew",
+                            "minecraft:item_model": "alchemika:cheese",
                             "minecraft:rarity": "common",
                             "minecraft:consumable": {},
                             "minecraft:food": {
-                                "nutrition": 8,
-                                "saturation": 9.6
-                            },
-                            "minecraft:use_remainder": {
-                                "id": "minecraft:bowl"
+                                "nutrition": 3,
+                                "saturation": 1.8
                             }
                           }
                         }

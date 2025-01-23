@@ -16,5 +16,15 @@
   "item.alch.impure_skysilver": "Impure Skysilver",
   "item.alch.salt": "Salt",
   "item.alch.mystery_morsel": "Mystery Morsel",
-  "item.alch.unidentified_stew": "Unidentified Stew"
+  "item.alch.unidentified_stew": "Unidentified Stew",
+  "item.alch.unidentified_chili": "Unidentified Chili",
+  "item.alch.cheese": "Cheese",
+  "item.alch.honeyed_ham": "Honeyed Ham",
+  "item.alch.bacon": "Bacon",
+  "item.alch.caramel": "Caramel",
+  "item.alch.caramel_apple": "Caramel Apple",
+  "item.alch.chocolate": "Chocolate",
+  "item.alch.hot_chocolate": "Hot Chocolate",
+  "item.alch.orichalcum_bacon": "Orichalcum Bacon",
+  "item.alch.orichalcum_bacon.lore": "Breakfast of Alchemists!"
 }

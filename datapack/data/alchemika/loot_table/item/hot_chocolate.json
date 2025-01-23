@@ -11,35 +11,28 @@
                             "function": "minecraft:set_name",
                             "target": "item_name",
                             "name": {
-                                "translate": "item.alch.mystery_morsel"
+                                "translate": "item.alch.hot_chocolate"
                             }
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{mystery_morsel:1b}}"
+                            "tag": "{alch_dat:{hot_chocolate:1b}}"
                         },
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:item_model": "alchemika:mystery_morsel",
+                            "minecraft:item_model": "alchemika:hot_chocolate",
                             "minecraft:rarity": "common",
                             "minecraft:consumable": {
-                                "on_consume_effects": [
-                                    {
-                                        "type": "apply_effects",
-                                        "effects": [
-                                            {
-                                                "id": "minecraft:hunger",
-                                                "duration": 200
-                                            }
-                                        ],
-                                        "probability": 0.1
-                                    }
-                                ]
+                                "animation": "drink",
+                                "sound": "entity.generic.drink"
                             },
                             "minecraft:food": {
-                                "nutrition": 5,
-                                "saturation": 3.0
+                                "nutrition": 6,
+                                "saturation": 7.2
+                            },
+                            "minecraft:use_remainder": {
+                                "id": "minecraft:glass_bottle"
                             }
                           }
                         }
