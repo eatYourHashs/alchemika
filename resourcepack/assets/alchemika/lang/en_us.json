@@ -26,5 +26,7 @@
   "item.alch.chocolate": "Chocolate",
   "item.alch.hot_chocolate": "Hot Chocolate",
   "item.alch.orichalcum_bacon": "Orichalcum Bacon",
-  "item.alch.orichalcum_bacon.lore": "Breakfast of Alchemists!"
+  "item.alch.orichalcum_bacon.lore": "Breakfast of Alchemists!",
+  "item.alch.blaze_spice": "Blaze Spice",
+  "item.alch.blaze_spice.lore": "May cause internal irritation and/or combustion."
 }
