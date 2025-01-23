@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:rabbit_stew",
+                    "name": "minecraft:structure_block",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
@@ -16,13 +16,21 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{unidentified_chili:1b}}"
+                            "tag": "{alch_dat:{unidentified_stew:1b}}"
                         },
                         {
                           "function": "minecraft:set_components",
                           "components": {
                             "minecraft:item_model": "alchemika:unidentified_stew",
-                            "minecraft:rarity": "common"
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {},
+                            "minecraft:food": {
+                                "nutrition": 8,
+                                "saturation": 8.0
+                            },
+                            "minecraft:use_remainder": {
+                                "id": "minecraft:bowl"
+                            }
                           }
                         }
                     ]

@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:baked_potato",
+                    "name": "minecraft:structure_block",
                     "functions": [
                         {
                             "function": "minecraft:set_name",
@@ -22,7 +22,25 @@
                           "function": "minecraft:set_components",
                           "components": {
                             "minecraft:item_model": "alchemika:mystery_morsel",
-                            "minecraft:rarity": "common"
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {
+                                "on_consume_effects": [
+                                    {
+                                        "type": "apply_effects",
+                                        "effects": [
+                                            {
+                                                "id": "minecraft:hunger",
+                                                "duration": 200
+                                            }
+                                        ],
+                                        "probability": 0.1
+                                    }
+                                ]
+                            },
+                            "minecraft:food": {
+                                "nutrition": 5,
+                                "saturation": 2.0
+                            }
                           }
                         }
                     ]
