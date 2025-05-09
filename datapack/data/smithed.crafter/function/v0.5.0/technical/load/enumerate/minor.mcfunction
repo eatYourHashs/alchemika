@@ -1,2 +1,0 @@
-execute if score #smithed.crafter.minor load.status matches ..5 unless score #smithed.crafter.minor load.status matches 5 run function smithed.crafter:v0.5.0/technical/load/enumerate/set_version
-execute unless score #smithed.crafter.set load.status matches 1 if score #smithed.crafter.minor load.status matches ..5 if score #smithed.crafter.minor load.status matches 5 run function smithed.crafter:v0.5.0/technical/load/enumerate/patch
