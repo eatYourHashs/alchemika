@@ -1,5 +1,5 @@
 data modify entity @s item.id set value "minecraft:leather_horse_armor"
-data modify entity @s item.components."minecraft:dyed_color" set value {rgb:16777215}
+data modify entity @s item.components."minecraft:dyed_color" set value 16777215
 data modify entity @s item.components."minecraft:item_model" set value "alchemika:block_model/empty"
 scoreboard players set $temp.count alch.dummy 0
 execute store result score $temp.count alch.dummy run data get entity @s item.components."minecraft:custom_data".alch_dat.cauldron
@@ -17,7 +17,7 @@ scoreboard players operation $temp.green alch.dummy *= $cons.256 alch.dummy
 scoreboard players operation $temp alch.dummy = $temp.red alch.dummy
 scoreboard players operation $temp alch.dummy += $temp.green alch.dummy
 scoreboard players operation $temp alch.dummy += $temp.blue alch.dummy
-execute store result entity @s item.components."minecraft:dyed_color".rgb int 1 run scoreboard players get $temp alch.dummy
+execute store result entity @s item.components."minecraft:dyed_color" int 1 run scoreboard players get $temp alch.dummy
 
 scoreboard players operation $temp alch.dummy = @s alch.rm_space
 scoreboard players operation $temp alch.dummy *= $cons.1000 alch.dummy
