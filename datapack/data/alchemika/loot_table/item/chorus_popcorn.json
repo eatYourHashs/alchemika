@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.chorus_popcorn"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{chorus_popcorn:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:chorus_popcorn",
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {
+                                "consume_seconds": 0.8
+                            },
+                            "minecraft:food": {
+                                "nutrition": 2,
+                                "saturation": 0.4
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
