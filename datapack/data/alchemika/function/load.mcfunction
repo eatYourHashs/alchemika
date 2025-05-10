@@ -100,4 +100,13 @@ data modify storage alchemika:registry recipes.scoop set value [{material_id:"bl
 # ingot casting recipes
 data modify storage alchemika:registry recipes.ingot_cast set value [{material_id:"molten_iron",material_amount:144,loot:"alchemika:vanilla_item/iron_ingot"},{material_id:"molten_gold",material_amount:144,loot:"alchemika:vanilla_item/gold_ingot"},{material_id:"molten_copper",material_amount:144,loot:"alchemika:vanilla_item/copper_ingot"},{material_id:"molten_orichalcum",material_amount:144,loot:"alchemika:item/orichalcum_ingot"},{material_id:"molten_netherite",material_amount:144,loot:"alchemika:vanilla_item/netherite_ingot"},{material_id:"resin",material_amount:72,loot:"alchemika:vanilla_item/resin_brick"}]
 
+# set modules to active if they're unset
+execute unless score $config.module.alchemy alch.dummy matches 0.. run scoreboard players set $config.module.alchemy alch.dummy 1
+execute unless score $config.module.metallurgy alch.dummy matches 0.. run scoreboard players set $config.module.metallurgy alch.dummy 1
+execute unless score $config.module.cooking alch.dummy matches 0.. run scoreboard players set $config.module.cooking alch.dummy 1
+# load modules
+execute if score $config.module.alchemy matches 1.. run function alchemika:load/alchemy
+execute if score $config.module.metallurgy matches 1.. run function alchemika:load/metallurgy
+execute if score $config.module.cooking matches 1.. run function alchemika:load/cooking
+# load addons
 function #alchemika:addon_registry
