@@ -1,5 +1,5 @@
 # registry of all cauldron compatible substances
-data modify storage alchemika:registry materials merge value [{id:"rotten_meat",red:186,blue:63,green:76,tag:"powder",pure:"null"},{id:"cheese",red:255,blue:0,green:225,tag:"powder",pure:"null"},{id:"chocolate",red:80,blue:17,green:42,tag:"normal",pure:"null"},{id:"mystery_meat",red:250,blue:125,green:152,tag:"powder",pure:"null"},{id:"unidentified_stew",red:222,blue:98,green:125,tag:"normal",pure:"null"},{id:"unidentified_chili",red:230,blue:71,green:105,tag:"hot",pure:"null"},{id:"caramel",red:150,blue:25,green:90,tag:"normal",pure:"null"},{id:"blaze_spice",red:255,blue:0,green:100,tag:"powder",pure:"null"}]
+data modify storage alchemika:registry materials merge value [{id:"cheese",red:255,blue:0,green:225,tag:"powder",pure:"null"},{id:"chocolate",red:80,blue:17,green:42,tag:"normal",pure:"null"},{id:"mystery_meat",red:250,blue:125,green:152,tag:"powder",pure:"null"},{id:"unidentified_stew",red:222,blue:98,green:125,tag:"normal",pure:"null"},{id:"unidentified_chili",red:230,blue:71,green:105,tag:"hot",pure:"null"},{id:"caramel",red:150,blue:25,green:90,tag:"normal",pure:"null"},{id:"blaze_spice",red:255,blue:0,green:100,tag:"powder",pure:"null"}]
 
 # registry of all item to substance recipes
 data modify storage alchemika:registry recipes.item_in merge value []
