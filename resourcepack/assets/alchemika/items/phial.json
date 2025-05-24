@@ -1,0 +1,19 @@
+{
+    "model": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "scale": 0.002,
+      "entries": [
+        {
+          "threshold": 0.2,
+          "model": {
+            
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "alchemika:item/phial/empty"
+      }
+    }
+  }
