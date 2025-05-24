@@ -7,7 +7,66 @@
         {
           "threshold": 0.2,
           "model": {
-            
+            "type": "minecraft:model",
+            "model": "alchemika:item/phial/1",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.4,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/phial/2",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.6,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/phial/3",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.8,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/phial/4",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/phial/full",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
           }
         }
       ],
