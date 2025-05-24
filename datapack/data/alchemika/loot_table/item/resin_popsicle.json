@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.resin_popsicle"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{resin_popsicle:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:resin_popsicle",
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {},
+                            "minecraft:food": {
+                                "nutrition": 6,
+                                "saturation": 7.2
+                            },
+                            "minecraft:use_remainder": {
+                                "id": "minecraft:stick"
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

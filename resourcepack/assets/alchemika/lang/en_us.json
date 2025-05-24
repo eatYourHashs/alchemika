@@ -32,10 +32,5 @@
   "item.alch.blaze_spice.lore": "May cause internal irritation and/or combustion.",
   "item.alch.chorus_popcorn": "Chorus Popcorn",
   "item.alch.chorus_caramel_corn": "Chorus Caramel Corn",
-  "item.alch.resin_popsicle": "Resin Popsicle",
-  "item.alch.sweet_berry_popsicle": "Sweet Berry Popsicle",
-  "item.alch.glow_berry_popsicle": "Glow Berry Popsicle",
-  "item.alch.melon_popsicle": "Melon Popsicle",
-  "item.alch.chorus_popsicle": "Chorus Popsicle",
-  "item.alch.blaze_popsicle": "Blaze Popsicle"
+  "item.alch.resin_popsicle": "Resin Popsicle"
 }
