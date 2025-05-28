@@ -8,6 +8,8 @@ scoreboard players operation $temp.item_remaining alch.dummy -= $temp.item_amoun
 scoreboard players operation $temp.item_total += $temp.item_amount
 execute store result storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.total int 1 run scoreboard players get $temp.item_total alch.dummy
 execute store result storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.remaining int 1 run scoreboard players get $temp.item_remaining alch.dummy
+scoreboard players operation @s alch.used_space -= $temp.item_amount alch.dummy
+scoreboard players operation @s alch.rm_space += $temp.item_amount alch.dummy
 
 # moved the rest of the operation here for reuse
-function alchemika:block/cauldron/interact/holder/fill_op with storage alchemika:storage temp.cauldron[0]
+function alchemika:block/cauldron/interact/holder/item_op with storage alchemika:storage temp.cauldron[0]

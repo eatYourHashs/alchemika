@@ -32,7 +32,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{phial:1b,holder:1b,contents:[],capacity:500,total:0,remaining:500}}"
+                            "tag": "{alch_dat:{phial:1b,holder:1b,contents:[],capacity:500,total:0,remaining:500,list:['null']}}"
                         },
                         {
                           "function": "minecraft:set_components",

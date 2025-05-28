@@ -1,5 +1,3 @@
-# requires: cauldron_amount, item_amount, modified_item
-
 # color handling
 $execute store result score $temp.red alch.dummy run data get storage alchemika:registry materials[{id:$(id)}].red
 $execute store result score $temp.blue alch.dummy run data get storage alchemika:registry materials[{id:$(id)}].blue
