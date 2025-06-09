@@ -15,6 +15,7 @@ execute store result score $temp.iter alch.dummy run data get storage alchemika:
 execute if score $temp.item_total alch.dummy matches 1.. if score $temp.count alch.dummy matches 1.. run function alchemika:block/cauldron/interact/holder/iter_select with storage alchemika:storage temp.cauldron[0]
 execute store result score $temp.count alch.dummy run data get storage alchemika:storage temp.cauldron
 execute unless entity @s[tag=alch.stop] if score $temp.item_total alch.dummy matches 1.. if score $temp.count alch.dummy matches 1.. if score $temp.item_remaining alch.dummy matches 1.. run function alchemika:block/cauldron/interact/holder/fill
-execute unless entity @s[tag=alch.stop] if score $temp.item_total alch.dummy matches 1.. if score @s alch.rm_space matches 1.. if score $temp.item_remaining alch.dummy matches 0 run function alchemika:block/cauldron/interact/holder/empty with storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.contents[0]
+
+execute unless entity @s[tag=alch.stop] if score $temp.item_total alch.dummy matches 1.. if score @s alch.rm_space matches 1.. run function alchemika:block/cauldron/interact/holder/empty with storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.contents[0]
 data remove entity @e[tag=alch.cauldron_interaction,limit=1,sort=nearest] interaction
 tag @s remove alch.stop
