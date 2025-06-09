@@ -5,7 +5,7 @@
       "scale": 0.002,
       "entries": [
         {
-          "threshold": 0.2,
+          "threshold": 0.0,
           "model": {
             "type": "minecraft:model",
             "model": "alchemika:item/phial/1",
@@ -18,7 +18,7 @@
           }
         },
         {
-          "threshold": 0.4,
+          "threshold": 0.25,
           "model": {
             "type": "minecraft:model",
             "model": "alchemika:item/phial/2",
@@ -31,7 +31,7 @@
           }
         },
         {
-          "threshold": 0.6,
+          "threshold": 0.5,
           "model": {
             "type": "minecraft:model",
             "model": "alchemika:item/phial/3",
@@ -44,7 +44,7 @@
           }
         },
         {
-          "threshold": 0.8,
+          "threshold": 0.75,
           "model": {
             "type": "minecraft:model",
             "model": "alchemika:item/phial/4",
