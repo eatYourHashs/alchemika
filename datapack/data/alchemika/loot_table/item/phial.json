@@ -14,11 +14,6 @@
                                     "color": "gray",
                                     "italic": false,
                                     "translate": "item.alch.phial.lore.0"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.alch.phial.lore.1"
                                 }
                             ],
                             "mode": "replace_all"
