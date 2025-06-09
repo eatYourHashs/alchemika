@@ -6,7 +6,7 @@ scoreboard players operation $temp.moved_amount alch.dummy = $temp.item_amount a
 execute if score $temp.moved_amount alch.dummy > @s alch.rm_space run scoreboard players operation $temp.moved_amount alch.dummy = @s alch.rm_space
 
 scoreboard players operation $temp.item_amount alch.dummy -= $temp.moved_amount alch.dummy
-scoreboard players operation $temp.cauldron_amount alch.dummy -= $temp.moved_amount alch.dummy
+scoreboard players operation $temp.cauldron_amount alch.dummy += $temp.moved_amount alch.dummy
 scoreboard players operation $temp.item_total alch.dummy = $temp.item_amount alch.dummy
 scoreboard players operation $temp.item_remaining alch.dummy = $temp.item_capacity alch.dummy
 scoreboard players operation $temp.item_remaining alch.dummy -= $temp.item_amount alch.dummy
