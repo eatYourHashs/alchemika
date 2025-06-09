@@ -15,4 +15,3 @@ scoreboard players operation @s alch.rm_space += $temp.moved_amount alch.dummy
 # moved the rest of the operation here for reuse
 function alchemika:block/cauldron/interact/holder/item_op with storage alchemika:storage temp.cauldron[0]
 tag @s add alch.stop
-say a

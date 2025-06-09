@@ -5,7 +5,7 @@
       "scale": 0.002,
       "entries": [
         {
-          "threshold": 0.0,
+          "threshold": 0.002,
           "model": {
             "type": "minecraft:model",
             "model": "alchemika:item/phial/1",

@@ -21,5 +21,6 @@ $execute if score $temp.cauldron_amount alch.dummy matches ..0 run data remove e
 # modifier for each individual holder type oof
 execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.phial run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_phial
 function #alchemika:addon_holders
-$say $(id)
+
 function alchemika:block/cauldron/update/update_visual
+playsound minecraft:item.bottle.fill player @a
