@@ -101,8 +101,8 @@ execute unless score $config.module.alchemy alch.dummy matches 0.. run scoreboar
 execute unless score $config.module.metallurgy alch.dummy matches 0.. run scoreboard players set $config.module.metallurgy alch.dummy 1
 execute unless score $config.module.cooking alch.dummy matches 0.. run scoreboard players set $config.module.cooking alch.dummy 1
 # load modules
-execute if score $config.module.alchemy matches 1.. run function alchemika:load/alchemy
-execute if score $config.module.metallurgy matches 1.. run function alchemika:load/metallurgy
-execute if score $config.module.cooking matches 1.. run function alchemika:load/cooking
+execute if score $config.module.alchemy alch.dummy matches 1.. run function alchemika:load/alchemy
+execute if score $config.module.metallurgy alch.dummy matches 1.. run function alchemika:load/metallurgy
+execute if score $config.module.cooking alch.dummy matches 1.. run function alchemika:load/cooking
 # load addons
 function #alchemika:addon_registry

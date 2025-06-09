@@ -1,5 +1,5 @@
 # amount calculations
-execute unless data storage alchemika:storage temp.cauldron[0] run data modify storage alchemika:storage temp.cauldron append {id:$(id),amount:0}
+$execute unless data storage alchemika:storage temp.cauldron[0] run data modify storage alchemika:storage temp.cauldron append value {id:$(id),amount:0}
 execute store result score $temp.cauldron_amount alch.dummy run data get storage alchemika:storage temp.cauldron[0].amount
 
 scoreboard players operation $temp.moved_amount alch.dummy = $temp.item_amount alch.dummy
@@ -7,7 +7,7 @@ execute if score $temp.moved_amount alch.dummy > @s alch.rm_space run scoreboard
 
 scoreboard players operation $temp.item_amount alch.dummy -= $temp.moved_amount alch.dummy
 scoreboard players operation $temp.cauldron_amount alch.dummy -= $temp.moved_amount alch.dummy
-scoreboard players operation $temp.item_total = $temp.item_amount
+scoreboard players operation $temp.item_total alch.dummy = $temp.item_amount alch.dummy
 scoreboard players operation $temp.item_remaining alch.dummy = $temp.item_capacity alch.dummy
 scoreboard players operation $temp.item_remaining alch.dummy -= $temp.item_amount alch.dummy
 

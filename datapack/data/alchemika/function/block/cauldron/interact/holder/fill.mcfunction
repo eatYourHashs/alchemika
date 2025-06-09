@@ -5,7 +5,7 @@ execute if score $temp.item_amount alch.dummy >= $temp.item_capacity alch.dummy 
 scoreboard players operation $temp.cauldron_amount alch.dummy -= $temp.item_amount alch.dummy
 scoreboard players operation $temp.item_remaining alch.dummy = $temp.item_capacity alch.dummy
 scoreboard players operation $temp.item_remaining alch.dummy -= $temp.item_amount alch.dummy
-scoreboard players operation $temp.item_total = $temp.item_amount
+scoreboard players operation $temp.item_total alch.dummy = $temp.item_amount alch.dummy
 execute store result storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.total int 1 run scoreboard players get $temp.item_total alch.dummy
 execute store result storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.remaining int 1 run scoreboard players get $temp.item_remaining alch.dummy
 scoreboard players operation @s alch.used_space -= $temp.item_amount alch.dummy

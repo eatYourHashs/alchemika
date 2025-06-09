@@ -12,7 +12,7 @@ scoreboard players operation $temp.color alch.dummy += $temp.blue alch.dummy
 data modify storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents set value [{id:"",amount:0}]
 execute store result storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents[0].amount int 1 run scoreboard players get $temp.item_amount alch.dummy
 $data modify storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents[0].id set value $(id)
-execute if score $temp.item_amount matches 0 run data remove storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents[0]
+execute if score $temp.item_amount alch.dummy matches 0 run data remove storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents[0]
 
 # put all this back on the item and cauldron
 $execute unless data entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:$(id)}] run data modify entity @s item.components."minecraft:custom_data".alch_dat.cauldron append {id:$(id),amount:0}
