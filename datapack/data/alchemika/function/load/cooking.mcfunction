@@ -31,3 +31,4 @@ function alchemika:load/registry_iterate {source:cooking,registry:recipes.stagna
 function alchemika:load/registry_iterate {source:cooking,registry:recipes.heat}
 function alchemika:load/registry_iterate {source:cooking,registry:recipes.chill}
 function alchemika:load/registry_iterate {source:cooking,registry:recipes.scoop}
+function alchemika:load/registry_iterate {source:cooking,registry:recipes.ingot_cast}
