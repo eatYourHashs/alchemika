@@ -24,11 +24,20 @@ data modify storage alchemika:registry cooking.recipes.scoop set value [{materia
 data modify storage alchemika:registry cooking.recipes.ingot_cast set value [{material_id:"chocolate",material_amount:72,loot:"alchemika:item/chocolate"}]
 
 # add registries to base
-function alchemika:load/registry_iterate {source:cooking,registry:materials}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.item_in_with_material}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.stir}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.stagnate}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.heat}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.chill}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.scoop}
-function alchemika:load/registry_iterate {source:cooking,registry:recipes.ingot_cast}
+# function alchemika:load/registry_iterate {source:cooking,registry:materials}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.item_in_with_material}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.stir}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.stagnate}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.heat}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.chill}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.scoop}
+# function alchemika:load/registry_iterate {source:cooking,registry:recipes.ingot_cast}
+
+data modify storage alchemika:registry materials append from storage alchemika:registry cooking.materials[]
+data modify storage alchemika:registry recipes.item_in_with_material append from storage alchemika:registry cooking.recipes.item_in_with_material[]
+data modify storage alchemika:registry recipes.stir append from storage alchemika:registry cooking.recipes.stir[]
+data modify storage alchemika:registry recipes.stagnate append from storage alchemika:registry cooking.recipes.stagnate[]
+data modify storage alchemika:registry recipes.heat append from storage alchemika:registry cooking.recipes.heat[]
+data modify storage alchemika:registry recipes.chill append from storage alchemika:registry cooking.recipes.chill[]
+data modify storage alchemika:registry recipes.scoop append from storage alchemika:registry cooking.recipes.scoop[]
+data modify storage alchemika:registry recipes.ingot_cast append from storage alchemika:registry cooking.recipes.ingot_cast[]

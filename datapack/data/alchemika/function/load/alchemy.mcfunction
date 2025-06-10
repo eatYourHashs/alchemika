@@ -22,6 +22,10 @@ data modify storage alchemika:registry alchemy.recipes.scoop set value []
 data modify storage alchemika:registry alchemy.recipes.ingot_cast set value [{material_id:"molten_orichalcum",material_amount:144,loot:"alchemika:item/orichalcum_ingot"}]
 
 # add registries to base
-function alchemika:load/registry_iterate {source:alchemy,registry:materials}
-function alchemika:load/registry_iterate {source:alchemy,registry:recipes.stir}
-function alchemika:load/registry_iterate {source:alchemy,registry:recipes.ingot_cast}
+# function alchemika:load/registry_iterate {source:alchemy,registry:materials}
+# function alchemika:load/registry_iterate {source:alchemy,registry:recipes.stir}
+# function alchemika:load/registry_iterate {source:alchemy,registry:recipes.ingot_cast}
+
+data modify storage alchemika:registry materials append from storage alchemika:registry alchemy.materials[]
+data modify storage alchemika:registry recipes.stir append from storage alchemika:registry alchemy.recipes.stir[]
+data modify storage alchemika:registry recipes.ingot_cast append from storage alchemika:registry alchemy.recipes.ingot_cast[]

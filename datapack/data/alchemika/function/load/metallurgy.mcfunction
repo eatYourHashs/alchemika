@@ -22,5 +22,8 @@ data modify storage alchemika:registry metallurgy.recipes.scoop set value []
 data modify storage alchemika:registry metallurgy.recipes.ingot_cast set value []
 
 # add registries to base
-function alchemika:load/registry_iterate {source:metallurgy,registry:recipes.stir}
-function alchemika:load/registry_iterate {source:metallurgy,registry:recipes.passive}
+# function alchemika:load/registry_iterate {source:metallurgy,registry:recipes.stir}
+# function alchemika:load/registry_iterate {source:metallurgy,registry:recipes.passive}
+
+data modify storage alchemika:registry recipes.stir append from storage alchemika:registry metallurgy.recipes.stir[]
+data modify storage alchemika:registry recipes.passive append from storage alchemika:registry metallurgy.recipes.passive[]
