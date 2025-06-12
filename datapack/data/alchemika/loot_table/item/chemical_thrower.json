@@ -32,7 +32,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{chemical_thrower:1b,holder:1b,contents:[],capacity:1000,total:0,remaining:1000,list:['water','lava','acid']}}"
+                            "tag": "{alch_dat:{chemical_thrower:1b,holder:1b,contents:[],capacity:1000,total:0,remaining:1000,list:[{id:'water'},{id:'lava'},{id:'acid'},{id:'milk'},{id:'slime'},{id:'blaze_powder'},{id:'distilled_experience'}]}}"
                         },
                         {
                           "function": "minecraft:set_components",
