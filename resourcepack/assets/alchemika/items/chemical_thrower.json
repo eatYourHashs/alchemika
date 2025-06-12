@@ -1,0 +1,117 @@
+{
+    "model": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "scale": 0.001,
+      "entries": [
+        {
+          "threshold": 0.001,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/1",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.25,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/2",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.375,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/3",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.5,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/4",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.625,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/5",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.75,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/6",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.875,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/7",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/chemical_thrower/full",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "alchemika:item/chemical_thrower/empty"
+      }
+    }
+  }
