@@ -14,12 +14,18 @@ execute store result storage alchemika:storage temp.modified_item.components."mi
 data modify storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents[0].id set from storage alchemika:storage temp.cauldron[0].id
 execute if score $temp.item_amount alch.dummy matches 0 run data remove storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.contents[0]
 
+# get fluid type
+$data modify storage alchemika:storage temp.type set from storage alchemika:registry materials[{id:$(id)}].tag
+
 # put all this back on the item and cauldron
 $execute unless data entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:$(id)}] run data modify entity @s item.components."minecraft:custom_data".alch_dat.cauldron append value {id:$(id),amount:0}
 $execute store result entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:$(id)}].amount int 1 run scoreboard players get $temp.cauldron_amount alch.dummy
 $execute if score $temp.cauldron_amount alch.dummy matches ..0 run data remove entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:$(id)}]
 # modifier for each individual holder type oof
 execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.phial run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_phial
+execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.chemical_thrower if data storage alchemika:storage temp{type:"normal"} run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_chemical_thrower_normal
+execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.chemical_thrower if data storage alchemika:storage temp{type:"hot"} run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_chemical_thrower_hot
+execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.chemical_thrower if data storage alchemika:storage temp{type:"powder"} run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_chemical_thrower_powder
 function #alchemika:addon_holders
 
 function alchemika:block/cauldron/update/update_visual
