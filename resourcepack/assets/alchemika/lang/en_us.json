@@ -12,6 +12,13 @@
   "item.alch.phial": "Phial",
   "item.alch.phial.lore.0": "Right click to fill from cauldron.",
   "item.alch.phial.lore.filled.0": "Right click to empty into cauldron.",
+  "item.alch.syringe": "Syringe",
+  "item.alch.syringe.lore.0": "Right click to draw your blood.",
+  "item.alch.syringe.lore.1": "Hit something to draw theirs.",
+  "item.alch.tempered_syringe": "Tempered Syringe",
+  "item.alch.tempered_syringe.lore.0": "Right click to draw your experience.",
+  "item.alch.tempered_syringe.lore.1": "Draws blood if you don't have any.",
+  "item.alch.tempered_syringe.lore.2": "Hit something to draw theirs.",
   "item.alch.chemical_thrower": "Chemical Thrower",
   "item.alch.chemical_thrower.lore.0": "Projects a variety of substances.",
   "item.alch.chemical_thrower.lore.1": "Must be filled from a cauldron.",
@@ -87,5 +94,9 @@
   "fluid.alch.unidentified_chili": "Unidentified Chili",
   "fluid.alch.caramel": "Caramel",
   "fluid.alch.blaze_spice": "Blaze Spice",
-  "fluid.alch.resin_popsicle": "Resin Popsicle"
+  "fluid.alch.resin_popsicle": "Resin Popsicle",
+  "death.attack.syringe": "%1$s died of blood loss",
+  "death.attack.acid": "%1$s was melted by acid",
+  "death.attack.acid.player": "%1$s was melted by %2$s with acid",
+  "death.attack.acid.item": "%1$s was melted by %2$s with acid using %3$s"
 }
