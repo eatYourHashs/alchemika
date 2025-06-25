@@ -16,12 +16,19 @@
               }
             }
           ]
-        }
-      ],
-      "conditions": [
+        },
         {
-          "condition": "minecraft:random_chance",
-          "chance": 0.6
+          "type": "minecraft:loot_table",
+          "value": "alchemika:item/salt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 10
+              }
+            }
+          ]
         }
       ]
     },
