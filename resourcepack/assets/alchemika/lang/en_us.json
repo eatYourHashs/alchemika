@@ -95,6 +95,7 @@
   "fluid.alch.caramel": "Caramel",
   "fluid.alch.blaze_spice": "Blaze Spice",
   "fluid.alch.resin_popsicle": "Resin Popsicle",
+  "fluid.alch.mercurial_glass": "Mercurial Glass",
   "death.attack.syringe": "%1$s died of blood loss",
   "death.attack.acid": "%1$s was melted by acid",
   "death.attack.acid.player": "%1$s was melted by %2$s with acid",
