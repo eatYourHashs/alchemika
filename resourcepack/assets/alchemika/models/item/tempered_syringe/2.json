@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alchemika:item/tempered_syringe/2",
+    "layer1": "alchemika:item/tempered_syringe/empty"
+  }
+}
