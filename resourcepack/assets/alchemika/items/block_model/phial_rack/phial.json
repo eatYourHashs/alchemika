@@ -1,0 +1,104 @@
+{
+    "model": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "scale": 0.002,
+      "entries": [
+        {
+          "threshold": 0.002,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_1",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.167,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_2",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.333,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_3",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.5,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_4",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.667,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_5",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.833,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_6",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:block/phial_rack/phial_full",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "alchemika:block/phial_rack/phial"
+      }
+    }
+  }
