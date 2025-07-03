@@ -1,0 +1,5 @@
+summon interaction ~ ~ ~ {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction"]}
+summon interaction ~-0.5 ~ ~ {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction"]}
+summon interaction ~-0.5 ~ ~-0.5 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction"]}
+summon interaction ~ ~ ~-0.5 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction"]}
+summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:dropper",count:1,components:{"minecraft:item_model": "alchemika:block_model/empty"}},NoGravity:1b,Tags:["smithed.entity","smithed.strict","alch.phial_rack_display","alch.phial_rack_display","alch.ticking"]}
