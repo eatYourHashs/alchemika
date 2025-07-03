@@ -25,7 +25,7 @@
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:item_model": "alchemika:orichalcum_cauldron",
+                            "minecraft:item_model": "alchemika:block_model/orichalcum_cauldron",
                             "minecraft:container": [
                                 {
                                   "slot": 0,
