@@ -9,12 +9,12 @@
                     "functions": [
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{placeable:1b,orichalcum_cauldron:1b}}"
+                            "tag": "{alch_dat:{placeable:1b,phial_rack:1b}}"
                         },
                         {
                           "function": "minecraft:set_components",
                           "components": {
-                            "minecraft:item_model": "alchemika:block_model/orichalcum_cauldron",
+                            "minecraft:item_model": "alchemika:block_model/phial_rack/main",
                             "minecraft:container": [
                                 {
                                   "slot": 0,
@@ -25,7 +25,7 @@
                                       "minecraft:custom_data": {
                                         "alch_dat": {
                                           "placed_block": true,
-                                          "block": "orichalcum_cauldron"
+                                          "block": "phial_rack"
                                         }
                                       }
                                     }
@@ -43,7 +43,7 @@
                             "function": "minecraft:set_name",
                             "target": "item_name",
                             "name": {
-                                "translate": "item.alch.orichalcum_cauldron"
+                                "translate": "item.alch.phial_rack"
                             }
                         }
                     ]
