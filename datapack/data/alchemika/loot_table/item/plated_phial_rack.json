@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dropper",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{placeable:1b,plated_phial_rack:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:block_model/phial_rack/main_plated",
+                            "minecraft:container": [
+                                {
+                                  "slot": 0,
+                                  "item": {
+                                    "id": "minecraft:barrier",
+                                    "count": 1,
+                                    "components": {
+                                      "minecraft:custom_data": {
+                                        "alch_dat": {
+                                          "placed_block": true,
+                                          "block": "plated_phial_rack"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              ],
+                              "minecraft:block_entity_data": {
+                                "id": "minecraft:dropper"
+                              },
+                              "minecraft:rarity": "common",
+                              "minecraft:tooltip_display": {"hidden_components":["minecraft:container"]}
+                          }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.plated_phial_rack"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
