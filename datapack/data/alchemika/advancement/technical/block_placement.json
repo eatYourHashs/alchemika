@@ -1,21 +1,22 @@
 {
-	"criteria": {
-		"requirement": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"location": [
-				  {
-					"condition": "minecraft:match_tool",
-					"predicate": {
-					  "nbt": "{BlockEntityTag:{Items:[{tag:{alch_dat:{placed_block:true}}}]}}"
-					}
-				  }
-				]
-			  }
-		  }
-	},
-	"rewards": {
-	  "function": "alchemika:block/placement/scan"
-	}
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": "{alch_dat:{placeable:1b}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "alchemika:block/placement/scan"
   }
-  
+}

@@ -20,7 +20,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{orichalcum_cauldron:1b}}"
+                            "tag": "{alch_dat:{placeable:1b,orichalcum_cauldron:1b}}"
                         },
                         {
                           "function": "minecraft:set_components",
