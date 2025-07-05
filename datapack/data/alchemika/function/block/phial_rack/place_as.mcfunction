@@ -1,7 +1,7 @@
-summon interaction ~0.25 ~-0.5 ~0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_1"]}
-summon interaction ~-0.25 ~-0.5 ~0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_2"]}
-summon interaction ~-0.25 ~-0.5 ~-0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_3"]}
-summon interaction ~0.25 ~-0.5 ~-0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_4"]}
+summon interaction ~-0.25 ~-0.5 ~0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_1"]}
+summon interaction ~0.25 ~-0.5 ~0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_2"]}
+summon interaction ~0.25 ~-0.5 ~-0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_3"]}
+summon interaction ~-0.25 ~-0.5 ~-0.25 {width:0.5,height:1,Tags:["smithed.entity","alch.ticking","alch.phial_rack_interaction","alch.phial_rack_part_4"]}
 summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},NoGravity:1b,Tags:["smithed.entity","smithed.strict","alch.phial_rack_display","alch.phial_rack_part_1"]}
 summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},NoGravity:1b,Tags:["smithed.entity","smithed.strict","alch.phial_rack_display","alch.phial_rack_part_2"]}
 summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0.707f,0f,0.707f],right_rotation:[0f,0.707f,0f,0.707f],translation:[0f,0f,0f],scale:[1f,1f,1f]},NoGravity:1b,Tags:["smithed.entity","smithed.strict","alch.phial_rack_display","alch.phial_rack_part_3"]}

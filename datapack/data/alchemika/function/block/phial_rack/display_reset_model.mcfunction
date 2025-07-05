@@ -1,0 +1,1 @@
+execute if data entity @s item.components."minecraft:custom_data".alch_dat.phial run data modify entity @s item.components."minecraft:item_model" set value "alchemika:phial"
