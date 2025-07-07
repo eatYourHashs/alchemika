@@ -26,6 +26,8 @@ execute if data storage alchemika:storage temp.modified_item.components."minecra
 execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.chemical_thrower if data storage alchemika:storage temp{type:"normal"} run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_chemical_thrower_normal
 execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.chemical_thrower if data storage alchemika:storage temp{type:"hot"} run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_chemical_thrower_hot
 execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.chemical_thrower if data storage alchemika:storage temp{type:"powder"} run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_chemical_thrower_powder
+execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.syringe run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_generic
+execute if data storage alchemika:storage temp.modified_item.components."minecraft:custom_data".alch_dat.tempered_syringe run item modify entity @p[tag=alch.interacter] weapon.mainhand alchemika:fill_generic
 function #alchemika:addon_holders
 
 function alchemika:block/cauldron/update/update_visual

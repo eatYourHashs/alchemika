@@ -9,6 +9,7 @@ scoreboard objectives add alch.potion_green dummy
 scoreboard objectives add alch.potion_blue dummy
 
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add alch.xp xp
 
 scoreboard players set $cons.-100 alch.dummy -100
 scoreboard players set $cons.-25 alch.dummy -25
