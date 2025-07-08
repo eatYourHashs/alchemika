@@ -465,6 +465,8 @@ Chicken Jockey!
 §6Also try Calamity Mod!
 §6Also try Thaumcraft!
 §6Also try Botania!
+§6Also try PokeRogue!
+§6Also try NieR:Automata!
 §6Data-driven!
 §6The war!
 §6Now with chemistry!
@@ -477,11 +479,13 @@ Chicken Jockey!
 §6Now with hydrochloric acid!
 §6Now with nitric acid!
 §6Oh, round and round we go!
+§6I am fire!
 §633550336 charmony doves!
 §6Try finger!
 §6Ah, free at last...
 §6Thy end is now!
 §6Now with dangerous chemicals!
+§6Now with orichalcum!
 §6Boom!
 §6pain_and_suffering.mcfunction
 §6Listen to Holst!
@@ -492,3 +496,11 @@ Chicken Jockey!
 §6Sodium chloride!
 §6May contain rocket fuel!
 §6Steve is in Smash!
+§6Non-explosive rubidium!
+§6Water (35 L), carbon (20 kg)!
+§6Trace amounts of fifteen other elements!
+§6Now with dev textures!
+§6Stoichiometry!
+§6It won't!
+§6Don't skip the lore!
+§6I ask again: what does Minecraft need?
