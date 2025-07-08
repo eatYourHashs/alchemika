@@ -486,6 +486,7 @@ Chicken Jockey!
 §6Thy end is now!
 §6Now with dangerous chemicals!
 §6Now with orichalcum!
+§6Now with existential dread!
 §6Boom!
 §6pain_and_suffering.mcfunction
 §6Listen to Holst!
@@ -505,3 +506,4 @@ Chicken Jockey!
 §6Don't skip the lore!
 §6I ask again: what does Minecraft need?
 §6:echdeath:
+§6What a thrill!
