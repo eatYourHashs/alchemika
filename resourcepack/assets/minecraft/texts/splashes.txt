@@ -468,6 +468,7 @@ Chicken Jockey!
 §6Also try PokeRogue!
 §6Also try NieR:Automata!
 §6Also try Doki Doki Literature Club!
+§6Also try Deep Rock Galactic!
 §6Data-driven!
 §6The war!
 §6Now with chemistry!
@@ -476,6 +477,7 @@ Chicken Jockey!
 §6Try the bacon!
 §6Try the chemical thrower!
 §6Try the phial racks!
+§6Corrosive sludge pump!
 §6Now with sulfuric acid!
 §6Now with hydrochloric acid!
 §6Now with nitric acid!
