@@ -19,11 +19,6 @@
                                     "color": "gray",
                                     "italic": false,
                                     "translate": "item.alch.tempered_syringe.lore.1"
-                                },
-                                {
-                                    "color": "gray",
-                                    "italic": false,
-                                    "translate": "item.alch.tempered_syringe.lore.2"
                                 }
                             ],
                             "mode": "replace_all"
@@ -32,7 +27,7 @@
                             "function": "minecraft:set_name",
                             "target": "item_name",
                             "name": {
-                                "translate": "item.alch.sytempered_syringeringe"
+                                "translate": "item.alch.tempered_syringe"
                             }
                         },
                         {

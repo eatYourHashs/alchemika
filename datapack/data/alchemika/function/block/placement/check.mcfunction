@@ -1,2 +1,5 @@
 execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"orichalcum_cauldron"}}}}]} run function alchemika:block/cauldron/variants/orichalcum/place
 execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"phial_rack"}}}}]} run function alchemika:block/phial_rack/place
+execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"gilded_phial_rack"}}}}]} run function alchemika:block/phial_rack/place_gilded
+execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"plated_phial_rack"}}}}]} run function alchemika:block/phial_rack/place_plated
+execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"tempered_phial_rack"}}}}]} run function alchemika:block/phial_rack/place_tempered
