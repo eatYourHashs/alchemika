@@ -6,3 +6,4 @@ execute if data storage alchemika:storage SelectedItem.components."minecraft:cus
 execute if data storage alchemika:storage SelectedItem.components."minecraft:custom_data".alch_dat{alchemical_musings:1b} run function alchemika:item/notes/use_4
 execute if data storage alchemika:storage SelectedItem.components."minecraft:custom_data".alch_dat{syringe:1b} run function alchemika:item/syringe/use
 execute if data storage alchemika:storage SelectedItem.components."minecraft:custom_data".alch_dat{tempered_syringe:1b} run function alchemika:item/syringe/use
+execute if data storage alchemika:storage SelectedItem.components."minecraft:custom_data".alch_dat{chemical_thrower:1b} run function alchemika:item/chemical_thrower/use

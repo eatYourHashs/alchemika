@@ -1,0 +1,1 @@
+execute unless entity @s[tag=alch.processed] run function alchemika:entity/player/process
