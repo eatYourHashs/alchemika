@@ -1,3 +1,4 @@
+playsound minecraft:item.bucket.empty player @a ~ ~ ~ 1 1.5
 scoreboard players remove $temp.amount alch.dummy 1
 scoreboard players add $temp.remaining alch.dummy 1
 execute if score $temp.amount alch.dummy matches 1.. run scoreboard players add $temp.remaining alch.dummy 1
