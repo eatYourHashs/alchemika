@@ -1,0 +1,51 @@
+{
+  "description": {
+    "text": "Bug? Report this",
+    "color": "red"
+  },
+  "supported_items": [],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": false,
+          "damage_type": "minecraft:explosion",
+          "radius": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          },
+          "block_interaction": "mob",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion"
+          },
+          "sound": "minecraft:entity.generic.explode"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "alchemika:entity/kill"
+        }
+      }
+    ]
+  }
+}

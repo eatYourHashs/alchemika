@@ -17,5 +17,3 @@ execute if entity @s[tag=alch.chemthrower_cryofluid] run effect give @e[type=!#a
 execute if entity @s[tag=alch.chemthrower_slime] run effect give @e[type=!#alchemika:projectile_ignore,tag=!alch.shooter,dx=0.6,dy=0.6,dz=0.6,distance=0.01..10] slowness 10 1 true
 execute if entity @s[tag=alch.chemthrower_slime] run effect give @e[type=!#alchemika:projectile_ignore,tag=!alch.shooter,dx=0.6,dy=0.6,dz=0.6,distance=0.01..10] oozing 10 0 true
 execute if entity @s[tag=alch.chemthrower_milk] run effect clear @e[type=!#alchemika:projectile_ignore,tag=!alch.shooter,dx=0.6,dy=0.6,dz=0.6,distance=0.01..10]
-execute if entity @s[tag=alch.chemthrower_gunpowder] run particle explosion ~ ~ ~ 0.5 0.5 0.5 0 3
-execute if entity @s[tag=alch.chemthrower_gunpowder] as @e[type=!#alchemika:projectile_ignore,distance=0.01..4] run damage @s 6.0 explosion by @p[tag=alch.shooter]

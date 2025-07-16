@@ -1,1 +1,2 @@
 tag @s add alch.kill
+execute if entity @s[tag=alch.chemthrower_gunpowder] run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Marker:1b,equipment:{chest:{id:"minecraft:stone",count:1,components:{enchantments:{"alchemika:technical/explosion":2}}}}}
