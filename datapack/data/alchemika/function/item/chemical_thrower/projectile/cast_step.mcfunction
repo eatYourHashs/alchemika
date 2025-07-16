@@ -16,6 +16,7 @@ execute if entity @s[tag=alch.chemthrower_distilled_experience] run particle dus
 execute if entity @s[tag=alch.chemthrower_gunpowder] run particle dust{color:[0.1f,0.1f,0.1f],scale:1f} ~ ~ ~ 0.4 0.4 0.4 0 2
 
 execute at @s unless block ~ ~ ~ #alchemika:not_solid run function alchemika:item/chemical_thrower/projectile/block_impact
+execute at @s positioned ~-0.3 ~-0.3 ~-0.3 if entity @e[type=!#alchemika:projectile_ignore,tag=!alch.shooter,dx=0.6,dy=0.6,dz=0.6,distance=0.01..10] positioned ~0.3 ~0.3 ~0.3 run function alchemika:item/chemical_thrower/projectile/entity_impact
 execute at @s run function #alchemika:addon_chemthrower
 
 execute if entity @s[tag=alch.kill] run scoreboard players set $temp.cast alch.dummy 10

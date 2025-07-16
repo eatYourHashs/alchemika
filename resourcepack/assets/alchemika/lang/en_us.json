@@ -107,5 +107,17 @@
   "death.attack.syringe": "%1$s died of blood loss",
   "death.attack.acid": "%1$s was melted by acid",
   "death.attack.acid.player": "%1$s was melted by %2$s with acid",
-  "death.attack.acid.item": "%1$s was melted by %2$s with acid using %3$s"
+  "death.attack.acid.item": "%1$s was melted by %2$s with acid using %3$s",
+  "death.attack.chemthrower_fire": "%1$s was incinerated by a blast of flame",
+  "death.attack.chemthrower_fire.player": "%1$s was incinerated by %2$s",
+  "death.attack.chemthrower_fire.item": "%1$s was incinerated by %2$s using %3$s",
+  "death.attack.chemthrower_water": "%1$s was powerwashed to death",
+  "death.attack.chemthrower_water.player": "%1$s was powerwashed to death by %2$s",
+  "death.attack.chemthrower_water.item": "%1$s was powerwashed to death by %2$s using %3$s",
+  "death.attack.chemthrower_dragon_breath": "%1$s was roasted in dragon's breath",
+  "death.attack.chemthrower_dragon_breath.player": "%1$s was roasted in dragon's breath by %2$s",
+  "death.attack.chemthrower_dragon_breath.item": "%1$s was roasted in dragon's breath by %2$s using %3$s",
+  "death.attack.cryo": "%1$s was flash-frozen into a popsicle",
+  "death.attack.cryo.player": "%1$s was flash-frozen by %2$s",
+  "death.attack.cryo.item": "%1$s was flash-frozen by %2$s using %3$s"
 }
