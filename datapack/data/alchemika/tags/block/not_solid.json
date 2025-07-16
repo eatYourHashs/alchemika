@@ -30,7 +30,6 @@
     "minecraft:red_mushroom",
     "minecraft:torch",
     "minecraft:ladder",
-    "minecraft:rail",
     "minecraft:lever",
     "minecraft:redstone_torch",
     "minecraft:lily_pad",
@@ -61,6 +60,17 @@
     "minecraft:amethyst_cluster",
     "minecraft:hanging_roots",
     "minecraft:glow_lichen",
-    "minecraft:spore_blossom"
+    "minecraft:spore_blossom",
+    "minecraft:soul_fire",
+    "minecraft:firefly_bush",
+    "minecraft:resin_clump",
+    "minecraft:pale_moss_carpet",
+    "minecraft:pale_hanging_moss",
+    "minecraft:leaf_litter",
+    "minecraft:structure_void",
+    "minecraft:short_dry_grass",
+    "minecraft:frogspawn",
+    "minecraft:tall_dry_grass",
+    "minecraft:moss_carpet"
   ]
 }

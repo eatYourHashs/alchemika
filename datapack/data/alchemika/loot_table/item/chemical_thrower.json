@@ -32,7 +32,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{alch_dat:{chemical_thrower:1b,holder:1b,contents:[],capacity:1000,total:0,remaining:1000,list:[{id:'water'},{id:'lava'},{id:'acid'},{id:'bio_acid'},{id:'dragon_acid'},{id:'dragon_breath'},{id:'pyrotheum'},{id:'cryofluid'},{id:'milk'},{id:'slime'},{id:'blaze_powder'},{id:'distilled_experience'}]}}"
+                            "tag": "{alch_dat:{chemical_thrower:1b,holder:1b,contents:[],capacity:1000,total:0,remaining:1000,list:[{id:'water'},{id:'lava'},{id:'acid'},{id:'dragon_acid'},{id:'dragon_breath'},{id:'pyrotheum'},{id:'cryofluid'},{id:'milk'},{id:'slime'},{id:'blaze_powder'},{id:'distilled_experience'},{id:'gunpowder'}]}}"
                         },
                         {
                           "function": "minecraft:set_components",
