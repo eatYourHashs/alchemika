@@ -7,11 +7,15 @@ scoreboard objectives add alch.interact_timer dummy
 scoreboard objectives add alch.potion_red dummy
 scoreboard objectives add alch.potion_green dummy
 scoreboard objectives add alch.potion_blue dummy
+scoreboard objectives add alch.notes dummy
+scoreboard objectives add alch.version dummy
 
 scoreboard objectives add alch.uuid dummy
 scoreboard objectives add alch.timer dummy
 
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
+
+scoreboard players set $version alch.version 1
 
 scoreboard players set $cons.-100 alch.dummy -100
 scoreboard players set $cons.-25 alch.dummy -25

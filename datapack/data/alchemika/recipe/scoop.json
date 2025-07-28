@@ -1,11 +1,12 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    " q",
-    "q "
+    " i",
+    "n "
   ],
   "key": {
-    "q": "minecraft:iron_ingot"
+    "i": "minecraft:iron_ingot",
+    "n": "minecraft:iron_nugget"
   },
   "result": {
     "id": "minecraft:carrot_on_a_stick",

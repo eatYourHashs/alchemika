@@ -21,7 +21,7 @@ data modify storage alchemika:registry cooking.recipes.soulburn set value []
 # scooping recipes
 data modify storage alchemika:registry cooking.recipes.scoop set value [{material_id:"mystery_meat",material_amount:72,loot:"alchemika:item/mystery_morsel"},{material_id:"blaze_spice",material_amount:72,loot:"alchemika:item/blaze_spice"},{material_id:"cheese",material_amount:72,loot:"alchemika:item/cheese"}]
 # ingot casting recipes
-data modify storage alchemika:registry cooking.recipes.ingot_cast set value [{material_id:"chocolate",material_amount:72,loot:"alchemika:item/chocolate"}]
+data modify storage alchemika:registry cooking.recipes.ingot_cast set value [{material_id:"chocolate",material_amount:72,loot:"alchemika:item/chocolate"},{material_id:"caramel",material_amount:72,loot:"alchemika:item/caramel"}]
 
 # add registries to base
 # function alchemika:load/registry_iterate {source:cooking,registry:materials}

@@ -1,0 +1,1 @@
+execute if score @s alch.notes matches ..1 run scoreboard players set @s alch.notes 1
