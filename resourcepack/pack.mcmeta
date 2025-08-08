@@ -1,6 +1,7 @@
 {
    "pack": {
-      "pack_format": 65.0,
+      "min_format": 65,
+      "max_format": 65,
       "description": "An experimental magic datapack"
    }
 }

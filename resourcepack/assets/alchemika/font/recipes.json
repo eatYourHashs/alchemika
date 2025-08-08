@@ -2,8 +2,8 @@
   "providers": [{
       "type": "bitmap",
       "file": "alchemika:gui/notes/recipes.png",
-      "ascent": 48,
-      "height": 100,
+      "ascent": 30,
+      "height": 90,
       "chars": [
         "\uc001\uc002\uc021\uc022",
         "\uc003\uc004\uc023\uc024",
