@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.alch.note.alkaline_base"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.alch.note.alkaline_base.lore",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{alch_dat:{note:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "alchemika:alchemical_scrawlings",
+                "minecraft:rarity": "common",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:written_book_content": {
+                  "pages": [
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.alkaline_base.1",
+                        "font": "minecraft:uniform"
+                      }
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.alkaline_base.2",
+                        "font": "minecraft:uniform"
+                      },{
+                        "text": "\uc027",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }]
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.alkaline_base.3",
+                        "font": "minecraft:uniform"
+                      },{
+                        "text": "\uc030",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }]
+                    },
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.alkaline_base.4",
+                        "font": "minecraft:uniform"
+                      }
+                    },
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.alkaline_base.5",
+                        "font": "minecraft:uniform"
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "\uc028\n\n\n\n\n\n\n\n\n\uc029",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }
+                    },
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.alkaline_base.6",
+                        "font": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "title": {
+                    "raw": ""
+                  },
+                  "author": "The Alchemist"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
