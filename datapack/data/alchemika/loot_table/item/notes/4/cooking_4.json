@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.alch.note.cooking_4"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.alch.note.cooking_4.lore",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{alch_dat:{note:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "alchemika:alchemical_musings",
+                "minecraft:rarity": "uncommon",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:written_book_content": {
+                  "pages": [
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.cooking_4.1",
+                        "font": "minecraft:uniform"
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "\uc032\n\n\n\n\n\n\n\n\n\uc033",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }
+                    }
+                  ],
+                  "title": {
+                    "raw": ""
+                  },
+                  "author": "The Alchemist"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
