@@ -469,6 +469,7 @@ Chicken Jockey!
 §6Also try NieR:Automata!
 §6Also try Doki Doki Literature Club!
 §6Also try Deep Rock Galactic!
+§6Also try Expedition 33!
 §6Data-driven!
 §6The war!
 §6Now with chemistry!
@@ -485,6 +486,7 @@ Chicken Jockey!
 §6I am fire!
 §633550336 charmony doves!
 §6Try finger!
+§6The time is ripe!
 §6Ah, free at last...
 §6Thy end is now!
 §6Now with dangerous chemicals!
@@ -514,3 +516,7 @@ Chicken Jockey!
 §6Yet another edition of Skyrim?
 §6Live Creeper reaction!
 §6Evil and intimidating horse!
+§6How wild...
+§6For those who come after!
+§6OSHA non-compliant!
+§6Don't forget your safety goggles!
