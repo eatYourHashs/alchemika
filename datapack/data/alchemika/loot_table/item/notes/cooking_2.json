@@ -54,7 +54,7 @@
                       },{
                         "text": "\uc012",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     },
                     {
@@ -64,7 +64,7 @@
                       },{
                         "text": "\uc013",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     },
                     {
@@ -74,7 +74,7 @@
                       },{
                         "text": "\uc015",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     },
                     {
@@ -84,7 +84,7 @@
                       },{
                         "text": "\uc014",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     },
                     {
@@ -94,7 +94,7 @@
                       },{
                         "text": "\uc016",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     },
                     {
@@ -104,14 +104,14 @@
                       },{
                         "text": "\uc010",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     },
                     {
                       "raw": [{
                         "text": "\uc009",
                         "color": "white",
-                        "font": "alchemika:crafting_recipes"
+                        "font": "alchemika:recipes"
                       }]
                     }
                   ],
