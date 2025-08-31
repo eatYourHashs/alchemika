@@ -68,7 +68,7 @@
                         "translate": "item.alch.note.orichalcum.4",
                         "font": "minecraft:uniform"
                       },{
-                        "text": "\uc005",
+                        "text": "\uc012",
                         "color": "white",
                         "font": "alchemika:crafting_recipes"
                       }]
@@ -78,6 +78,16 @@
                         "translate": "item.alch.note.orichalcum.5",
                         "font": "minecraft:uniform"
                       },{
+                        "text": "\uc005",
+                        "color": "white",
+                        "font": "alchemika:crafting_recipes"
+                      }]
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.orichalcum.6",
+                        "font": "minecraft:uniform"
+                      },{
                         "text": "\uc009",
                         "color": "white",
                         "font": "alchemika:crafting_recipes"
@@ -85,7 +95,7 @@
                     },
                     {
                       "raw": {
-                        "translate": "item.alch.note.orichalcum.6",
+                        "translate": "item.alch.note.orichalcum.7",
                         "font": "minecraft:uniform"
                       }
                     }
