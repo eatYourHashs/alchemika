@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.honeyed_ham"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{honeyed_ham:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:honeyed_ham",
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {},
+                            "minecraft:food": {
+                                "nutrition": 9,
+                                "saturation": 14.4
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

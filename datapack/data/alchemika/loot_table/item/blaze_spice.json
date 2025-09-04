@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.alch.blaze_spice.lore"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.blaze_spice"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{blaze_spice:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:blaze_spice",
+                            "minecraft:rarity": "uncommon",
+                            "minecraft:consumable": {
+                                "on_consume_effects": [
+                                    {
+                                        "type": "apply_effects",
+                                        "effects": [
+                                            {
+                                                "id": "minecraft:instant_damage",
+                                                "duration": 1
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "minecraft:food": {
+                                "nutrition": 1,
+                                "saturation": 1.6
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

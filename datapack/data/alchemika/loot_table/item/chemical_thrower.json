@@ -1,0 +1,49 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.alch.chemical_thrower.lore.0"
+                                },
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.alch.chemical_thrower.lore.1"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.chemical_thrower"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{chemical_thrower:1b,holder:1b,contents:[],capacity:1000,total:0,remaining:1000,list:[{id:'water'},{id:'lava'},{id:'acid'},{id:'dragon_acid'},{id:'dragon_breath'},{id:'pyrotheum'},{id:'cryofluid'},{id:'milk'},{id:'slime'},{id:'blaze_powder'},{id:'distilled_experience'},{id:'gunpowder'}]}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:chemical_thrower",
+                            "minecraft:rarity": "uncommon"
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

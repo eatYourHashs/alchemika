@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.salt"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{salt:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:salt",
+                            "minecraft:rarity": "common"
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

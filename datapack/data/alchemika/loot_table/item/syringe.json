@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.alch.syringe.lore.0"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.syringe"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{syringe:1b,holder:1b,contents:[],capacity:100,total:0,remaining:100,list:['null']}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:syringe",
+                            "minecraft:rarity": "common"
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

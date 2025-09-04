@@ -1,0 +1,3 @@
+setblock ~ ~ ~ cauldron
+summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:leather_horse_armor",count:1,components:{"minecraft:item_model": "alchemika:block_model/empty", "minecraft:custom_data": {alch_dat:{cauldron:[]}}}},NoGravity:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.cauldron","alch.custom_cauldron","alch.orichalcum_cauldron","alch.ticking","alch.5ticking","alch.20ticking"]}
+execute as @e[tag=alch.cauldron,limit=1,sort=nearest] at @s run function alchemika:block/cauldron/variants/orichalcum/place_as

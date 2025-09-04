@@ -1,0 +1,1 @@
+scoreboard players operation @s alch.version = $version alch.version

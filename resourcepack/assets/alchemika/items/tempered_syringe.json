@@ -1,0 +1,78 @@
+{
+    "model": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "scale": 0.002,
+      "entries": [
+        {
+          "threshold": 0.002,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/tempered_syringe/1",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.25,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/tempered_syringe/2",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.5,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/tempered_syringe/3",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.75,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/tempered_syringe/4",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "alchemika:item/tempered_syringe/full",
+            "tints": [
+              {
+                "type": "minecraft:custom_model_data",
+                "default": 16777215
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "alchemika:item/tempered_syringe/empty"
+      }
+    }
+  }

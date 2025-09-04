@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "translate": "item.alch.note.cooking"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.alch.note.cooking.lore",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{alch_dat:{note:1b}}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "alchemika:unidentified_notes",
+                "minecraft:rarity": "common",
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:written_book_content"
+                  ]
+                },
+                "minecraft:written_book_content": {
+                  "pages": [
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.cooking.1",
+                        "font": "minecraft:uniform"
+                      }
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.cooking.2",
+                        "font": "minecraft:uniform"
+                      },{
+                        "text": "\uc006",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }]
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.cooking.3",
+                        "font": "minecraft:uniform"
+                      },{
+                        "text": "\uc008",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }]
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.cooking.4",
+                        "font": "minecraft:uniform"
+                      },{
+                        "text": "\uc007",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }]
+                    },
+                    {
+                      "raw": [{
+                        "translate": "item.alch.note.cooking.5",
+                        "font": "minecraft:uniform"
+                      },{
+                        "text": "\uc011",
+                        "color": "white",
+                        "font": "alchemika:recipes"
+                      }]
+                    },
+                    {
+                      "raw": {
+                        "translate": "item.alch.note.cooking.6",
+                        "font": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                  "title": {
+                    "raw": ""
+                  },
+                  "author": "The Alchemist"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

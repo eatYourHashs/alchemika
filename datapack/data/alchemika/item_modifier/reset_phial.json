@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    {
+      "translate": "item.alch.phial.lore.0",
+      "color": "gray",
+      "italic": false
+    }
+  ],
+  "mode": "replace_all"
+}

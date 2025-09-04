@@ -1,0 +1,16 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "p",
+    "s"
+  ],
+  "key": {
+    "s": "minecraft:stick",
+    "p": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {"minecraft:item_model": "alchemika:stirring_rod", "minecraft:lore": ["{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.alch.stirring_rod.lore.0\"}", "{\"color\":\"gray\",\"italic\":false,\"translate\":\"item.alch.stirring_rod.lore.1\"}"], "minecraft:item_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"item.alch.stirring_rod\"}", "minecraft:custom_data": {"alch_dat": {"stirring_rod": 1}}}
+  }
+}

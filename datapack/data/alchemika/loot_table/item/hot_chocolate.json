@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.hot_chocolate"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{hot_chocolate:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:hot_chocolate",
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {
+                                "animation": "drink",
+                                "sound": "entity.generic.drink"
+                            },
+                            "minecraft:food": {
+                                "nutrition": 6,
+                                "saturation": 7.2
+                            },
+                            "minecraft:use_remainder": {
+                                "id": "minecraft:glass_bottle"
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

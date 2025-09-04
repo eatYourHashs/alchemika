@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "color": "gray",
+                                    "italic": false,
+                                    "translate": "item.alch.orichalcum_bacon.lore"
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.orichalcum_bacon"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{orichalcum_bacon:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:orichalcum_bacon",
+                            "minecraft:rarity": "uncommon",
+                            "minecraft:consumable": {
+                                "on_consume_effects": [
+                                    {
+                                        "type": "apply_effects",
+                                        "effects": [
+                                            {
+                                                "id": "minecraft:strength",
+                                                "duration": 800,
+                                                "amplifier": 1
+                                            },
+                                            {
+                                                "id": "minecraft:haste",
+                                                "duration": 800,
+                                                "amplifier": 1
+                                            },
+                                            {
+                                                "id": "minecraft:absorption",
+                                                "duration": 2400,
+                                                "amplifier": 1
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "minecraft:food": {
+                                "nutrition": 9,
+                                "saturation": 21.6
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.unidentified_chili"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{unidentified_chili:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:unidentified_chili",
+                            "minecraft:rarity": "uncommon",
+                            "minecraft:consumable": {
+                                "on_consume_effects": [
+                                    {
+                                        "type": "apply_effects",
+                                        "effects": [
+                                            {
+                                                "id": "minecraft:regeneration",
+                                                "duration": 200
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "minecraft:food": {
+                                "nutrition": 10,
+                                "saturation": 16.0
+                            },
+                            "minecraft:use_remainder": {
+                                "id": "minecraft:bowl"
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

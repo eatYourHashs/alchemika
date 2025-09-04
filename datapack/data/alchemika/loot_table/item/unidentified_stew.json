@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.unidentified_stew"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{unidentified_stew:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:unidentified_stew",
+                            "minecraft:rarity": "common",
+                            "minecraft:consumable": {},
+                            "minecraft:food": {
+                                "nutrition": 8,
+                                "saturation": 9.6
+                            },
+                            "minecraft:use_remainder": {
+                                "id": "minecraft:bowl"
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

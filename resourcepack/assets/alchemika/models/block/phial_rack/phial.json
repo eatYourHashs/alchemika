@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"4": "alchemika:block/phial_rack/phial"
+	},
+	"elements": [
+		{
+			"from": [11, 6, 2],
+			"to": [14, 13, 5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [12, 11, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 7], "texture": "#4"},
+				"east": {"uv": [3, 0, 0, 7], "texture": "#4"},
+				"south": {"uv": [0, 0, 3, 7], "texture": "#4"},
+				"west": {"uv": [3, 0, 0, 7], "texture": "#4"},
+				"up": {"uv": [6, 3, 3, 0], "texture": "#4"},
+				"down": {"uv": [3, 0, 6, 3], "texture": "#4"}
+			}
+		},
+		{
+			"from": [14, 13, 5],
+			"to": [11, 6, 2],
+			"rotation": {"angle": 0, "axis": "x", "origin": [15, 1, 2]},
+			"faces": {
+				"north": {"uv": [3, 0, 0, 7], "rotation": 180, "texture": "#4"},
+				"east": {"uv": [0, 0, 3, 7], "rotation": 180, "texture": "#4"},
+				"south": {"uv": [3, 0, 0, 7], "rotation": 180, "texture": "#4"},
+				"west": {"uv": [0, 0, 3, 7], "rotation": 180, "texture": "#4"},
+				"up": {"uv": [3, 0, 6, 3], "texture": "#4"},
+				"down": {"uv": [6, 3, 3, 0], "texture": "#4"}
+			}
+		}
+	],
+	"display": {}
+}

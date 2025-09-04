@@ -1,0 +1,56 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.alch.phial.lore.filled.0",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+      "values": [
+        {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$temp.item_total"
+          },
+          "score": "alch.dummy"
+        }
+      ],
+      "mode": "replace_all"
+    },
+    "colors": {
+      "values": [
+        {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$temp.color"
+          },
+          "score": "alch.dummy"
+        }
+      ],
+      "mode": "replace_all"
+    }
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "alchemika:storage"
+    },
+    "ops": [
+      {
+        "source": "temp.modified_item.components.\"minecraft:custom_data\".alch_dat",
+        "target": "alch_dat",
+        "op": "replace"
+      }
+    ]
+  }
+]

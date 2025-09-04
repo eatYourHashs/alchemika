@@ -1,0 +1,15 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "alchemika:block/fluid"
+	},
+	"elements": [
+		
+	],
+	"display": {
+		"head": {
+			"translation": [0, -48, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

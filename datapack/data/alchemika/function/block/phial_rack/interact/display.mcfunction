@@ -1,0 +1,2 @@
+execute if data entity @s item run function alchemika:block/phial_rack/pop
+execute unless entity @s[tag=alch.matched] if data storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.phial run function alchemika:block/phial_rack/interact/put

@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "alchemika:block/powder",
+		"particle": "alchemika:block/powder"
+	},
+	"elements": [
+		{
+			"from": [1, 14, 1],
+			"to": [15, 15, 15],
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -48, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

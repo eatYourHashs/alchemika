@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ii",
+    "gg",
+    "ii"
+  ],
+  "key": {
+    "i": "minecraft:gold_ingot",
+    "g": "minecraft:glass"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {"minecraft:item_name": {"translate": "item.alch.phial"}, "minecraft:lore": [{"color": "gray", "italic": false, "translate": "item.alch.phial.lore.0"}], "minecraft:item_model": "alchemika:phial", "minecraft:custom_data": {"alch_dat": {"total": 0, "contents": [], "phial": 1, "holder": 1, "list": ["null"], "remaining": 500, "capacity": 500}}}
+  }
+}

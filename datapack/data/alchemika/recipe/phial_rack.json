@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "gig",
+    " i ",
+    "sss"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "g": "minecraft:glass",
+    "s": "minecraft:smooth_stone"
+  },
+  "result": {
+    "id": "minecraft:dropper",
+    "count": 1,
+    "components": {"minecraft:item_name": {"translate": "item.alch.phial_rack"}, "minecraft:item_model": "alchemika:block_model/phial_rack/main", "minecraft:container": [{"item": {"components": {"minecraft:custom_data": {"alch_dat": {"placed_block": 1, "block": "phial_rack"}}}, "count": 1, "id": "minecraft:barrier"}, "slot": 0}], "minecraft:tooltip_display": {"hidden_components": ["minecraft:container"]}, "minecraft:custom_data": {"alch_dat": {"placeable": 1, "phial_rack": 1}}, "minecraft:block_entity_data": {"id": "minecraft:dropper"}}
+  }
+}

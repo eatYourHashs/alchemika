@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ structure_void run function alchemika:block/phial_rack/break
