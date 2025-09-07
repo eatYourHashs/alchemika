@@ -11,7 +11,7 @@
                             "function": "minecraft:set_name",
                             "target": "item_name",
                             "name": {
-                                "translate": "item.alch.chorus_popcorn"
+                                "translate": "item.alch.chorus_caramel_corn"
                             }
                         },
                         {
