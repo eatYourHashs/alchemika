@@ -1,0 +1,263 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:mystery_morsel"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.any_food.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.any_food.description"
+    }
+  },
+  "parent": "alchemika:alchemika/scoop",
+  "criteria": {
+    "mystery_morsel": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "mystery_morsel": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "unidentified_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "unidentified_stew": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "unidentified_chili": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "unidentified_chili": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "resin_popsicle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "resin_popsicle": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "cheese": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "cheese": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "caramel": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "caramel": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "chocolate": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "chocolate": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "hot_chocolate": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "hot_chocolate": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "caramel_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "caramel_apple": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "honeyed_ham": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "honeyed_ham": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "blaze_spice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "blaze_spice": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "blaze_roasted_bacon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "blaze_roasted_bacon": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "orichalcum_bacon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "orichalcum_bacon": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "bacon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "bacon": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "chorus_popcorn": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "chorus_popcorn": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "chorus_caramel_corn": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "chorus_caramel_corn": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mystery_morsel",
+      "unidentified_stew",
+      "unidentified_chili",
+      "resin_popsicle",
+      "cheese",
+      "caramel",
+      "chocolate",
+      "hot_chocolate",
+      "honeyed_ham",
+      "caramel_apple",
+      "blaze_spice",
+      "blaze_roasted_bacon",
+      "orichalcum_bacon",
+      "bacon",
+      "chorus_popcorn",
+      "chorus_caramel_corn"
+    ]
+  ]
+}

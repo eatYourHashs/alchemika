@@ -125,12 +125,21 @@
 
   "advancements.alchemika.root.title": "Alchemika",
   "advancements.alchemika.root.description": "An experimental magic datapack by Hashs",
-  "advancements.alchemika.stirring_rod.title": "Tinkers' Construction",
+  "advancements.alchemika.stirring_rod.title": "Stirring Up Trouble",
   "advancements.alchemika.stirring_rod.description": "Craft a stirring rod",
-  "advancements.alchemika.scoop.title": "Tinkers' Construction",
+  "advancements.alchemika.scoop.title": "Sorry, there's no ice cream",
   "advancements.alchemika.scoop.description": "Craft a scoop",
   "advancements.alchemika.ingot_cast.title": "Tinkers' Construction",
   "advancements.alchemika.ingot_cast.description": "Create an ingot cast for casting molten metals",
+  "advancements.alchemika.any_food.title": "Artificial Flavors",
+  "advancements.alchemika.any_food.description": "Eat any alchemically-produced food item",
+  "advancements.alchemika.blaze_spice.title": "Hell's Chicken",
+  "advancements.alchemika.blaze_spice.description": "Obtain Blaze Spice",
+  "advancements.alchemika.orichalcum_bacon.title": "Breakfast of Alchemists",
+  "advancements.alchemika.orichalcum_bacon.description": "Consume Orichalcum Bacon",
+  "advancements.alchemika.all_food.title": "Lifetime Stew",
+  "advancements.alchemika.all_food.description": "Eat one of every alchemically-produced food item",
+  
 
   "item.alch.note.intro": "Alchemical Foundations",
   "item.alch.note.intro.lore": "Unidentified Note 1 of 4",
