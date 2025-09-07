@@ -123,6 +123,15 @@
   "death.attack.cryo.player": "%1$s was flash-frozen by %2$s",
   "death.attack.cryo.item": "%1$s was flash-frozen by %2$s using %3$s",
 
+  "advancements.alchemika.root.title": "Alchemika",
+  "advancements.alchemika.root.description": "An experimental magic datapack by Hashs",
+  "advancements.alchemika.stirring_rod.title": "Tinkers' Construction",
+  "advancements.alchemika.stirring_rod.description": "Craft a stirring rod",
+  "advancements.alchemika.scoop.title": "Tinkers' Construction",
+  "advancements.alchemika.scoop.description": "Craft a scoop",
+  "advancements.alchemika.ingot_cast.title": "Tinkers' Construction",
+  "advancements.alchemika.ingot_cast.description": "Create an ingot cast for casting molten metals",
+
   "item.alch.note.intro": "Alchemical Foundations",
   "item.alch.note.intro.lore": "Unidentified Note 1 of 4",
   "item.alch.note.intro.1": "These writings will serve as the recordings of my experiments with the compositional forces of this world - the forces of alchemy, as they shall be dubbed. Until today, I was but a humble man, but now I call myself an Alchemist. These mysterious forces will be bent to my will, and I shall detail my methodology within these texts.",

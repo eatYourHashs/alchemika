@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:ingot_cast"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.ingot_cast.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.ingot_cast.description"
+    }
+  },
+  "parent": "alchemika:alchemika/scoop",
+  "criteria": {
+    "ingot_cast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot_on_a_stick",
+            "components": {
+              "minecraft:custom_data": {
+                "alch_dat": {
+                  "ingot_cast": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ingot_cast"
+    ]
+  ]
+}

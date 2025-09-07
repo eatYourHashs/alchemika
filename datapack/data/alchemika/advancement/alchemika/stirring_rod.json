@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:stirring_rod"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.stirring_rod.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.stirring_rod.description"
+    }
+  },
+  "parent": "alchemika:alchemika/root",
+  "criteria": {
+    "stirring_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot_on_a_stick",
+            "components": {
+              "minecraft:custom_data": {
+                "alch_dat": {
+                  "stirring_rod": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stirring_rod"
+    ]
+  ]
+}
