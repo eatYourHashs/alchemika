@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:syringe",
+        "minecraft:custom_model_data": {
+          "floats": [100.0],
+          "colors": [12522259]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.syringe.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.syringe.description"
+    }
+  },
+  "parent": "alchemika:alchemika/scoop",
+  "criteria": {
+    "syringe": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "syringe"
+    ]
+  ]
+}

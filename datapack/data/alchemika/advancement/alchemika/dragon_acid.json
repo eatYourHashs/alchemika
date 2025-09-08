@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:phial",
+        "minecraft:custom_model_data": {
+          "floats": [500.0],
+          "colors": [16711867]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.dragon_acid.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.dragon_acid.description"
+    }
+  },
+  "parent": "alchemika:alchemika/acid",
+  "criteria": {
+    "dragon_acid": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "dragon_acid"
+    ]
+  ]
+}

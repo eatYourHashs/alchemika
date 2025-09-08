@@ -139,6 +139,16 @@
   "advancements.alchemika.orichalcum_bacon.description": "Consume Orichalcum Bacon",
   "advancements.alchemika.all_food.title": "Lifetime Stew",
   "advancements.alchemika.all_food.description": "Eat one of every alchemically-produced food item",
+  "advancements.alchemika.acid.title": "Caustic Concoction",
+  "advancements.alchemika.acid.description": "Produce acid in a cauldron",
+  "advancements.alchemika.dragon_acid.title": "Past Their Great Disasters",
+  "advancements.alchemika.dragon_acid.description": "Produce dragon acid in a cauldron",
+  "advancements.alchemika.orichalcum.title": "Auric Tesla",
+  "advancements.alchemika.orichalcum.description": "Cast an ingot of orichalcum alloy",
+  "advancements.alchemika.syringe.title": "I Am My Biggest Fan",
+  "advancements.alchemika.syringe.description": "Use a syringe",
+  "advancements.alchemika.orichalcum_cauldron.title": "Bigger on the Inside",
+  "advancements.alchemika.orichalcum_cauldron.description": "Place an orichalcum cauldron",
   
 
   "item.alch.note.intro": "Alchemical Foundations",
