@@ -153,6 +153,8 @@
   "advancements.alchemika.chemical_thrower.description": "Fire the Chemical Thrower",
   "advancements.alchemika.chemical_thrower_cook.title": "Out of the Frying Pan...",
   "advancements.alchemika.chemical_thrower_cook.description": "Fill a Chemical Thrower with a fiery substance, then use it to cook an animal alive",
+  "advancements.alchemika.pyrotheum_cryofluid.title": "Elemental Genesis",
+  "advancements.alchemika.pyrotheum_cryofluid.description": "Use Alkaline Base to create either Pyrotheum or Cryofluid in the cauldron",
   
 
   "item.alch.note.intro": "Alchemical Foundations",

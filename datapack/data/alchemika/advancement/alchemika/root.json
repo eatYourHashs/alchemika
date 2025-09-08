@@ -12,7 +12,7 @@
     "description": {
       "translate": "advancements.alchemika.root.description"
     },
-    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "background": "minecraft:block/cut_copper",
     "show_toast": false,
     "announce_to_chat": false
   },
