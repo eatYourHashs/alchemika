@@ -17,21 +17,8 @@
   "parent": "alchemika:alchemika/orichalcum",
   "criteria": {
     "chemical_thrower": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:carrot_on_a_stick",
-            "components": {
-              "minecraft:custom_data": {
-                "alch_dat": {
-                  "chemical_thrower": 1
-                }
-              }
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   },
   "requirements": [

@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:chemical_thrower",
+        "minecraft:custom_model_data": {
+          "floats": [1000.0],
+          "colors": [16736000],
+          "strings": ["hot"]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.chemical_thrower_cook.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.chemical_thrower_cook.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "alchemika:alchemika/chemical_thrower",
+  "criteria": {
+    "chemical_thrower_cook": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#alchemika:cookable"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "alchemika:chemthrower_fire",
+              "expected": true
+            }
+          ],
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "alch_dat": {
+                      "chemical_thrower": 1,
+                      "contents": [
+                        {
+                          "id": "pyrotheum"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chemical_thrower_cook"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

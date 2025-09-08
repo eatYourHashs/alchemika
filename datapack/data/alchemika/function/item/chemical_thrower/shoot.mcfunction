@@ -11,3 +11,4 @@ $summon marker ~ ~ ~ {Tags:["alch.ticking","smithed.entity","alch.chemthrower","
 execute at @s as @n[type=marker,tag=alch.new] run function alchemika:item/chemical_thrower/shoot_as
 tag @n[type=marker,tag=alch.new] remove alch.new
 $function alchemika:item/chemical_thrower/item_op {id:$(id)}
+advancement grant @s only alchemika:alchemika/chemical_thrower chemical_thrower

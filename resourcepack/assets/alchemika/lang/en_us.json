@@ -150,7 +150,9 @@
   "advancements.alchemika.orichalcum_cauldron.title": "Bigger on the Inside",
   "advancements.alchemika.orichalcum_cauldron.description": "Place an orichalcum cauldron",
   "advancements.alchemika.chemical_thrower.title": "Geneva Suggestion",
-  "advancements.alchemika.chemical_thrower.description": "Create the Chemical Thrower",
+  "advancements.alchemika.chemical_thrower.description": "Fire the Chemical Thrower",
+  "advancements.alchemika.chemical_thrower_cook.title": "Out of the Frying Pan...",
+  "advancements.alchemika.chemical_thrower_cook.description": "Fill a Chemical Thrower with pyrotheum, then use it to cook an animal alive",
   
 
   "item.alch.note.intro": "Alchemical Foundations",
