@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:unidentified_notes"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.all_notes.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.all_notes.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "alchemika:alchemika/root",
+  "criteria": {
+    "all_notes": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "all_notes"
+    ]
+  ]
+}

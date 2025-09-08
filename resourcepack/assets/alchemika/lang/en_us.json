@@ -155,6 +155,8 @@
   "advancements.alchemika.chemical_thrower_cook.description": "Fill a Chemical Thrower with a fiery substance, then use it to cook an animal alive",
   "advancements.alchemika.pyrotheum_cryofluid.title": "Elemental Genesis",
   "advancements.alchemika.pyrotheum_cryofluid.description": "Use Alkaline Base to create either Pyrotheum or Cryofluid in the cauldron",
+  "advancements.alchemika.all_notes.title": "For Those Who Come After",
+  "advancements.alchemika.all_notes.description": "Find all of the Alchemist's lost notes",
   
 
   "item.alch.note.intro": "Alchemical Foundations",
