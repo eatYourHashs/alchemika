@@ -141,7 +141,7 @@
   "advancements.alchemika.all_food.description": "Eat one of every alchemically-produced food item",
   "advancements.alchemika.acid.title": "Caustic Concoction",
   "advancements.alchemika.acid.description": "Produce acid in a cauldron",
-  "advancements.alchemika.dragon_acid.title": "Past Their Great Disasters",
+  "advancements.alchemika.dragon_acid.title": "Past Your Great Disasters",
   "advancements.alchemika.dragon_acid.description": "Produce dragon acid in a cauldron",
   "advancements.alchemika.orichalcum.title": "Auric Tesla",
   "advancements.alchemika.orichalcum.description": "Cast an ingot of orichalcum alloy",
@@ -152,7 +152,7 @@
   "advancements.alchemika.chemical_thrower.title": "Geneva Suggestion",
   "advancements.alchemika.chemical_thrower.description": "Fire the Chemical Thrower",
   "advancements.alchemika.chemical_thrower_cook.title": "Out of the Frying Pan...",
-  "advancements.alchemika.chemical_thrower_cook.description": "Fill a Chemical Thrower with pyrotheum, then use it to cook an animal alive",
+  "advancements.alchemika.chemical_thrower_cook.description": "Fill a Chemical Thrower with a fiery substance, then use it to cook an animal alive",
   
 
   "item.alch.note.intro": "Alchemical Foundations",

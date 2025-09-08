@@ -33,25 +33,7 @@
               "id": "alchemika:chemthrower_fire",
               "expected": true
             }
-          ],
-          "source_entity": {
-            "equipment": {
-              "mainhand": {
-                "components": {
-                  "minecraft:custom_data": {
-                    "alch_dat": {
-                      "chemical_thrower": 1,
-                      "contents": [
-                        {
-                          "id": "pyrotheum"
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          }
+          ]
         }
       }
     }
