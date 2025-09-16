@@ -9,6 +9,10 @@
     {
       "structure": "alchemika:small_alchemist_ruin/oak",
       "weight": 1
+    },
+    {
+      "structure": "alchemika:small_alchemist_ruin/spruce",
+      "weight": 1
     }
   ]
 }
