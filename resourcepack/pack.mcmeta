@@ -1,9 +1,9 @@
 {
    "pack": {
       "pack_format": 65,
-      "supported_formats": [65, 68],
+      "supported_formats": [65, 69],
       "min_format": 65,
-      "max_format": 68,
+      "max_format": 69,
       "description": "An experimental magic datapack"
    }
 }

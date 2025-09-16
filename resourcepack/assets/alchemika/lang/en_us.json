@@ -266,12 +266,16 @@
   "item.alch.note.propellant.3": "I believe I have exhausted all the research opportunities afforded to me by the Nether, and frankly, I am done with this infernal heat. My next laboratory shall be constructed on the other side of the stronghold’s portal, in the native dimension of the Endermen.",
 
   "item.alch.note.dragon_acid": "Acidic Applications: Ascended",
-  "item.alch.note.dragon_acid.lore": "Alchemical Musings 1 of 2",
+  "item.alch.note.dragon_acid.lore": "Alchemical Musings 1 of 3",
   "item.alch.note.dragon_acid.1": "The End is protected by a fierce dragon, far stronger than any creature I have encountered yet. As I fended her off, I noted that her breath contains powerful caustic properties; killing her would be a colossal waste, and so I have simply left for the outer islands via a redstone contraption. As it turns out, these properties can be utilized to create an incredibly strong acid.",
   "item.alch.note.dragon_acid.2": "Dragon acid, as it shall be called, can be formed via acid, salt, and the breath of this dragon. A violently pink, magmatic substance, it can be used in many of the same ways as regular acid.\n",
   "item.alch.note.dragon_acid.3": "Dragon acid is a violent substance on its own, but used together with bio-acid, it can process ores even more efficiently than regular acid, yielding twice as much metal as a furnace.\n",
   "item.alch.note.dragon_acid.4": "The otherworldly properties of dragon breath hint that I still have not fully understood the workings of alchemy. There are forces beyond what acts on regular matter that I must understand if I am to create the Great Work. Comprehending these must be my next great endeavor.",
   "item.alch.note.cooking_4": "Ascended Iteration: End Cooking",
-  "item.alch.note.cooking_4.lore": "Alchemical Musings 2 of 2",
-  "item.alch.note.cooking_4.1": "The vast, stretching tree-like vines growing in this dimension are in fact a food source - both raw and processed. While popped chorus fruit can’t be consumed directly, it creates a tasty treat when salt is added. Further addition of caramel creates a decadent snack."
+  "item.alch.note.cooking_4.lore": "Alchemical Musings 2 of 3",
+  "item.alch.note.cooking_4.1": "The vast, stretching tree-like vines growing in this dimension are in fact a food source - both raw and processed. While popped chorus fruit can’t be consumed directly, it creates a tasty treat when salt is added. Further addition of caramel creates a decadent snack.",
+  "item.alch.note.propellant_rocket": "Propellant Rocketry",
+  "item.alch.note.propellant_rocket.lore": "Alchemical Musings 3 of 3",
+  "item.alch.note.propellant_rocket.1": "The elytra wings found in the floating ships of this dimension are useful for traversal, but fireworks originally intended for crude decoration are proving to be a terribly inefficient propulsion source. I have used my previous discovery of propellant to invent a method of producing better rockets with longer flight time.",
+  "item.alch.note.propellant_rocket.2": "Propellant rockets, cast from copper, use the immense energy within propellant to produce multiple seconds of force, perfect for elytra flight.\n\n\n"
 }
