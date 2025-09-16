@@ -33,3 +33,9 @@ tag @s remove alch.normal
 tag @s remove alch.hot
 tag @s remove alch.powder
 tag @s remove alch.pure
+
+# this one fucking bug fix
+execute store result entity @s item.components."minecraft:custom_data".alch_dat.used_space int 1 run scoreboard players get @s alch.used_space
+execute store result entity @s item.components."minecraft:custom_data".alch_dat.rm_space int 1 run scoreboard players get @s alch.rm_space
+execute store result entity @s item.components."minecraft:custom_data".alch_dat.interact_timer int 1 run scoreboard players get @s alch.interact_timer
+execute store result entity @s item.components."minecraft:custom_data".alch_dat.capacity int 1 run scoreboard players get @s alch.capacity
