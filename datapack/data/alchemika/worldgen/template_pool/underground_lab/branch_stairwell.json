@@ -15,25 +15,16 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "alchemika:underground_lab/stairwell",
+        "location": "alchemika:underground_lab/library",
         "processors": "alchemika:expose_copper"
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "alchemika:underground_lab/dead_end",
-        "processors": "alchemika:expose_copper"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "alchemika:underground_lab/library",
         "processors": "alchemika:expose_copper"
       }
     }
