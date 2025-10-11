@@ -1,3 +1,4 @@
+execute unless score @s alch.capacity matches 1.. run function alchemika:block/cauldron/load_scores
 execute if block ~ ~-1 ~ #alchemika:heat_source run function alchemika:block/cauldron/heat
 execute if block ~ ~-1 ~ #alchemika:soulburn_source run function alchemika:block/cauldron/soulburn
 execute if predicate alchemika:nether run function alchemika:block/cauldron/heat

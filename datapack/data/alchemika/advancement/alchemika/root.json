@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:sigil"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.root.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.root.description"
+    },
+    "background": "minecraft:block/cut_copper",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "cauldron": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:cauldron"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cauldron"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "alchemika:item/unidentified_notes"
+    ]
+  }
+}

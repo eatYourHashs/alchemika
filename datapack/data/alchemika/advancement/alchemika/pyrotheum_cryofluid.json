@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:phial",
+        "minecraft:custom_model_data": {
+          "floats": [500.0],
+          "colors": [8781823]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.pyrotheum_cryofluid.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.pyrotheum_cryofluid.description"
+    }
+  },
+  "parent": "alchemika:alchemika/chemical_thrower",
+  "criteria": {
+    "pyrotheum_cryofluid": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "pyrotheum_cryofluid"
+    ]
+  ]
+}

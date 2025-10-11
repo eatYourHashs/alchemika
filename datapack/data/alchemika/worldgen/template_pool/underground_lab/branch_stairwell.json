@@ -1,0 +1,32 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "alchemika:underground_lab/boiler_room",
+        "processors": "alchemika:expose_copper"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "alchemika:underground_lab/library",
+        "processors": "alchemika:expose_copper"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "alchemika:underground_lab/dead_end",
+        "processors": "alchemika:expose_copper"
+      }
+    }
+  ]
+}

@@ -485,7 +485,6 @@ Chicken Jockey!
 §6Oh, round and round we go!
 §6I am fire!
 §633550336 charmony doves!
-§6Try finger!
 §6The time is ripe!
 §6Ah, free at last...
 §6Thy end is now!
@@ -520,3 +519,5 @@ Chicken Jockey!
 §6For those who come after!
 §6OSHA non-compliant!
 §6Don't forget your safety goggles!
+§6Entelechy!
+§6As the Theoros, I have observed...

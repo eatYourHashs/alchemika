@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:orichalcum_bacon"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.orichalcum_bacon.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.orichalcum_bacon.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "alchemika:alchemika/blaze_spice",
+  "criteria": {
+    "orichalcum_bacon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "alch_dat": {
+                "orichalcum_bacon": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "orichalcum_bacon"
+    ]
+  ]
+}

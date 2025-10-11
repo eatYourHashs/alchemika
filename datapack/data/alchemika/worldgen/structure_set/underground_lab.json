@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 55,
+    "separation": 10,
+    "spacing": 30
+  },
+  "structures": [
+    {
+      "structure": "alchemika:underground_lab",
+      "weight": 1
+    }
+  ]
+}

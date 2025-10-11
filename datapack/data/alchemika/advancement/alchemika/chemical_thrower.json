@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:chemical_thrower"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.chemical_thrower.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.chemical_thrower.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "alchemika:alchemika/orichalcum",
+  "criteria": {
+    "chemical_thrower": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "chemical_thrower"
+    ]
+  ]
+}

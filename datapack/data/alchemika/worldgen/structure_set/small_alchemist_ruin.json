@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 33,
+    "separation": 3,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "alchemika:small_alchemist_ruin/oak",
+      "weight": 1
+    },
+    {
+      "structure": "alchemika:small_alchemist_ruin/spruce",
+      "weight": 1
+    }
+  ]
+}

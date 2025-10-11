@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:blaze_spice"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.blaze_spice.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.blaze_spice.description"
+    }
+  },
+  "parent": "alchemika:alchemika/any_food",
+  "criteria": {
+    "blaze_spice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "components": {
+              "minecraft:custom_data": {
+                "alch_dat": {
+                  "blaze_spice": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blaze_spice"
+    ]
+  ]
+}

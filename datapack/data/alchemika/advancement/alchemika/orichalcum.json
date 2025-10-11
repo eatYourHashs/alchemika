@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:orichalcum_ingot"
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.orichalcum.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.orichalcum.description"
+    }
+  },
+  "parent": "alchemika:alchemika/ingot_cast",
+  "criteria": {
+    "orichalcum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "components": {
+              "minecraft:custom_data": {
+                "alch_dat": {
+                  "orichalcum": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "orichalcum"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_cut_copper"
+    },
+    "title": {
+      "translate": "advancements.alchemika.underground_lab.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.underground_lab.description"
+    }
+  },
+  "parent": "alchemika:alchemika/root",
+  "criteria": {
+    "underground_lab": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "alchemika:underground_lab"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "underground_lab"
+    ]
+  ]
+}

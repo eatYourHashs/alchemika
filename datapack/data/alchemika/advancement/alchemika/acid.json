@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "alchemika:phial",
+        "minecraft:custom_model_data": {
+          "floats": [500.0],
+          "colors": [65280]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.alchemika.acid.title"
+    },
+    "description": {
+      "translate": "advancements.alchemika.acid.description"
+    }
+  },
+  "parent": "alchemika:alchemika/ingot_cast",
+  "criteria": {
+    "acid": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "acid"
+    ]
+  ]
+}

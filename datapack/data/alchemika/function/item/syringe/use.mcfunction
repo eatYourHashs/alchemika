@@ -14,4 +14,5 @@ execute if data storage alchemika:storage temp.item.components."minecraft:custom
 execute if data storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.contents[{id:"blood"}] if score $temp.remaining alch.dummy matches 10.. run function alchemika:item/syringe/fill_blood
 execute unless data storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.contents[0] if data storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.tempered_syringe if entity @s[tag=alch.has_20] run function alchemika:item/syringe/fill_xp
 execute unless data storage alchemika:storage temp.item.components."minecraft:custom_data".alch_dat.contents[0] run function alchemika:item/syringe/fill_blood
+advancement grant @s only alchemika:alchemika/syringe syringe
 tag @s remove alch.has_20

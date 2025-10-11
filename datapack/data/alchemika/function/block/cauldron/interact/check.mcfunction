@@ -7,4 +7,6 @@ $execute unless entity @s[tag=alch.matched] run data modify storage alchemika:st
 execute unless entity @s[tag=alch.matched] store result score $temp.matches alch.dummy run data get storage alchemika:storage temp.matched_recipes
 execute unless entity @s[tag=alch.matched] if score $temp.matches alch.dummy matches 1.. run function alchemika:block/cauldron/interact/iterate_matched with storage alchemika:storage temp.matched_recipes[0]
 data remove entity @e[tag=alch.cauldron_interaction,limit=1,sort=nearest] interaction
+execute if entity @s[tag=alch.matched] if data entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:"pyrotheum"}] run advancement grant @p[tag=alch.interacter] only alchemika:alchemika/pyrotheum_cryofluid pyrotheum_cryofluid
+execute if entity @s[tag=alch.matched] if data entity @s item.components."minecraft:custom_data".alch_dat.cauldron[{id:"cryofluid"}] run advancement grant @p[tag=alch.interacter] only alchemika:alchemika/pyrotheum_cryofluid pyrotheum_cryofluid
 tag @s remove alch.matched

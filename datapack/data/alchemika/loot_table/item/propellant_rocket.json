@@ -1,0 +1,36 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "item.alch.propellant_rocket"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{alch_dat:{propellant_rocket:1b}}"
+                        },
+                        {
+                          "function": "minecraft:set_components",
+                          "components": {
+                            "minecraft:item_model": "alchemika:propellant_rocket",
+                            "minecraft:rarity": "common",
+                            "minecraft:fireworks": {
+                                "flight_duration": 5
+                            }
+                          }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
