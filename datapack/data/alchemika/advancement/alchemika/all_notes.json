@@ -14,7 +14,7 @@
     },
     "frame": "goal"
   },
-  "parent": "alchemika:alchemika/root",
+  "parent": "alchemika:alchemika/underground_lab",
   "criteria": {
     "all_notes": {
       "trigger": "minecraft:impossible",
