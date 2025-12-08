@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "alchemika:item/chemical_thrower/layer1",
-		"1": "alchemika:block/fluid",
+		"1": "alchemika:item/substance/fluid",
 		"particle": "alchemika:item/chemical_thrower/layer1"
 	},
 	"elements": [

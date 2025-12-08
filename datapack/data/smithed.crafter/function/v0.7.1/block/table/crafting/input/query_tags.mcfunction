@@ -71,7 +71,7 @@ execute if items entity @s weapon.mainhand #minecraft:enchantable/mace run data 
 execute if items entity @s weapon.mainhand #minecraft:enchantable/mining run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/mining"
 execute if items entity @s weapon.mainhand #minecraft:enchantable/mining_loot run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/mining_loot"
 execute if items entity @s weapon.mainhand #minecraft:enchantable/sharp_weapon run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/sharp_weapon"
-execute if items entity @s weapon.mainhand #minecraft:enchantable/sword run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/sword"
+execute if items entity @s weapon.mainhand #minecraft:enchantable/sweeping run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/sweeping"
 execute if items entity @s weapon.mainhand #minecraft:enchantable/trident run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/trident"
 execute if items entity @s weapon.mainhand #minecraft:enchantable/vanishing run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/vanishing"
 execute if items entity @s weapon.mainhand #minecraft:enchantable/weapon run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/weapon"
