@@ -53,7 +53,7 @@ execute if items entity @s weapon.mainhand #minecraft:dirt run data modify stora
 execute if items entity @s weapon.mainhand #minecraft:doors run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:doors"
 execute if items entity @s weapon.mainhand #minecraft:drowned_preferred_weapons run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:drowned_preferred_weapons"
 execute if items entity @s weapon.mainhand #minecraft:duplicates_allays run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:duplicates_allays"
-execute if items entity @s weapon.mainhand #minecraft:dyeable run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:dyeable"
+#execute if items entity @s weapon.mainhand #minecraft:dyeable run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:dyeable"
 execute if items entity @s weapon.mainhand #minecraft:eggs run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:eggs"
 execute if items entity @s weapon.mainhand #minecraft:emerald_ores run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:emerald_ores"
 execute if items entity @s weapon.mainhand #minecraft:enchantable/armor run data modify storage smithed.crafter:main root.temp.item_tag append value "#minecraft:enchantable/armor"
