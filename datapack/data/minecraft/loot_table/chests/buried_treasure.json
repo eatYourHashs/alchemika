@@ -6,19 +6,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "alchemika:item/sulfur",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "alchemika:item/salt",
           "functions": [
             {
@@ -29,6 +16,12 @@
               }
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
         }
       ]
     },
