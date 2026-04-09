@@ -497,6 +497,8 @@ Chicken Jockey!
 §6pain_and_suffering.mcfunction
 §6Listen to Holst!
 §6Listen to Stravinsky!
+§6Listen to Mahler!
+§6Listen to Shostakovich!
 §6Only 2 bosses!
 §6Steve beats Goku!
 §6Iron(III) oxide!
