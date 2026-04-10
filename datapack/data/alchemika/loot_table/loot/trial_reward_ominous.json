@@ -10,21 +10,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "alchemika:item/cinnabar",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
-            }
-          ],
-          "conditions": []
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "alchemika:item/mercurial_glass",
           "weight": 3,
           "functions": [
@@ -37,6 +22,12 @@
             }
           ],
           "conditions": []
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
         }
       ]
     }

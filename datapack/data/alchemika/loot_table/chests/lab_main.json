@@ -150,9 +150,9 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "alchemika:item/sulfur",
-          "weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:potent_sulfur",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
