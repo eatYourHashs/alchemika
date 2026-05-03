@@ -1,3 +1,3 @@
 setblock ~ ~ ~ structure_void
-summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:structure_block",count:1,components:{"minecraft:item_model": "alchemika:block_model/copper_pipe/main"}},NoGravity:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.copper_pipe","alch.ticking","alch.20ticking"]}
+summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:structure_block",count:1,components:{"minecraft:item_model": "alchemika:block_model/copper_pipe/main"}},NoGravity:1b,Tags:["smithed.entity","smithed.strict","smithed.block","alch.copper_pipe","alch.ticking"]}
 execute as @n[tag=alch.copper_pipe] at @s run function alchemika:block/copper_pipe/place_as
