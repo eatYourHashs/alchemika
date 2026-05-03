@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:block/magma_block",
-		"particle": "minecraft:block/magma_block"
+		"0": "minecraft:block/magma",
+		"particle": "minecraft:block/magma"
 	},
 	"elements": [
 		{
