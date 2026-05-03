@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ structure_void run setblock ~ ~ ~ structure_void destroy

@@ -3,3 +3,4 @@ execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_d
 execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"gilded_phial_rack"}}}}]} run function alchemika:block/phial_rack/place_gilded
 execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"plated_phial_rack"}}}}]} run function alchemika:block/phial_rack/place_plated
 execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"tempered_phial_rack"}}}}]} run function alchemika:block/phial_rack/place_tempered
+execute if data block ~ ~ ~ {Items:[{components:{"minecraft:custom_data":{alch_dat:{placed_block:true,block:"copper_pipe"}}}}]} run function alchemika:block/copper_pipe/place
