@@ -15,7 +15,7 @@ scoreboard objectives add alch.timer dummy
 
 scoreboard objectives add alch.cstick minecraft.used:minecraft.carrot_on_a_stick
 
-scoreboard players set $version alch.version 1
+scoreboard players set $version alch.version 2
 
 scoreboard players set $cons.-100 alch.dummy -100
 scoreboard players set $cons.-25 alch.dummy -25
